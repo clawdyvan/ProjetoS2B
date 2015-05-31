@@ -124,27 +124,29 @@ namespace DengueApp.DengueApp_WindowsPhone_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[9];
+            _typeNameTable = new string[10];
             _typeNameTable[0] = "DengueApp.AtividadesPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "System.Collections.Generic.List`1<String>";
+            _typeNameTable[3] = "System.Collections.Generic.List`1<DengueApp.ItemLista>";
             _typeNameTable[4] = "Object";
-            _typeNameTable[5] = "String";
-            _typeNameTable[6] = "DengueApp.FuncionalidadesSecundariasPage";
-            _typeNameTable[7] = "DengueApp.HomePage";
-            _typeNameTable[8] = "DengueApp.MainPage";
+            _typeNameTable[5] = "DengueApp.ItemLista";
+            _typeNameTable[6] = "String";
+            _typeNameTable[7] = "DengueApp.FuncionalidadesSecundariasPage";
+            _typeNameTable[8] = "DengueApp.HomePage";
+            _typeNameTable[9] = "DengueApp.MainPage";
 
-            _typeTable = new global::System.Type[9];
+            _typeTable = new global::System.Type[10];
             _typeTable[0] = typeof(global::DengueApp.AtividadesPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::System.Collections.Generic.List<global::System.String>);
+            _typeTable[3] = typeof(global::System.Collections.Generic.List<global::DengueApp.ItemLista>);
             _typeTable[4] = typeof(global::System.Object);
-            _typeTable[5] = typeof(global::System.String);
-            _typeTable[6] = typeof(global::DengueApp.FuncionalidadesSecundariasPage);
-            _typeTable[7] = typeof(global::DengueApp.HomePage);
-            _typeTable[8] = typeof(global::DengueApp.MainPage);
+            _typeTable[5] = typeof(global::DengueApp.ItemLista);
+            _typeTable[6] = typeof(global::System.String);
+            _typeTable[7] = typeof(global::DengueApp.FuncionalidadesSecundariasPage);
+            _typeTable[8] = typeof(global::DengueApp.HomePage);
+            _typeTable[9] = typeof(global::DengueApp.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -180,14 +182,15 @@ namespace DengueApp.DengueApp_WindowsPhone_XamlTypeInfo
         }
 
         private object Activate_0_AtividadesPage() { return new global::DengueApp.AtividadesPage(); }
-        private object Activate_3_List() { return new global::System.Collections.Generic.List<global::System.String>(); }
-        private object Activate_6_FuncionalidadesSecundariasPage() { return new global::DengueApp.FuncionalidadesSecundariasPage(); }
-        private object Activate_7_HomePage() { return new global::DengueApp.HomePage(); }
-        private object Activate_8_MainPage() { return new global::DengueApp.MainPage(); }
+        private object Activate_3_List() { return new global::System.Collections.Generic.List<global::DengueApp.ItemLista>(); }
+        private object Activate_5_ItemLista() { return new global::DengueApp.ItemLista(); }
+        private object Activate_7_FuncionalidadesSecundariasPage() { return new global::DengueApp.FuncionalidadesSecundariasPage(); }
+        private object Activate_8_HomePage() { return new global::DengueApp.HomePage(); }
+        private object Activate_9_MainPage() { return new global::DengueApp.MainPage(); }
         private void VectorAdd_3_List(object instance, object item)
         {
-            var collection = (global::System.Collections.Generic.ICollection<global::System.String>)instance;
-            var newItem = (global::System.String)item;
+            var collection = (global::System.Collections.Generic.ICollection<global::DengueApp.ItemLista>)instance;
+            var newItem = (global::DengueApp.ItemLista)item;
             collection.Add(newItem);
         }
 
@@ -217,7 +220,7 @@ namespace DengueApp.DengueApp_WindowsPhone_XamlTypeInfo
                 xamlType = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  System.Collections.Generic.List`1<String>
+            case 3:   //  System.Collections.Generic.List`1<DengueApp.ItemLista>
                 userType = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.CollectionAdd = VectorAdd_3_List;
                 userType.SetIsReturnTypeStub();
@@ -228,27 +231,37 @@ namespace DengueApp.DengueApp_WindowsPhone_XamlTypeInfo
                 xamlType = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 5:   //  String
+            case 5:   //  DengueApp.ItemLista
+                userType = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_5_ItemLista;
+                userType.AddMemberName("Id");
+                userType.AddMemberName("Titulo");
+                userType.AddMemberName("Subtitulo");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  String
                 xamlType = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 6:   //  DengueApp.FuncionalidadesSecundariasPage
+            case 7:   //  DengueApp.FuncionalidadesSecundariasPage
                 userType = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_FuncionalidadesSecundariasPage;
+                userType.Activator = Activate_7_FuncionalidadesSecundariasPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 7:   //  DengueApp.HomePage
+            case 8:   //  DengueApp.HomePage
                 userType = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_7_HomePage;
+                userType.Activator = Activate_8_HomePage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 8:   //  DengueApp.MainPage
+            case 9:   //  DengueApp.MainPage
                 userType = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_MainPage;
+                userType.Activator = Activate_9_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -265,7 +278,37 @@ namespace DengueApp.DengueApp_WindowsPhone_XamlTypeInfo
         private void set_0_AtividadesPage_ListItems(object instance, object Value)
         {
             var that = (global::DengueApp.AtividadesPage)instance;
-            that.ListItems = (global::System.Collections.Generic.List<global::System.String>)Value;
+            that.ListItems = (global::System.Collections.Generic.List<global::DengueApp.ItemLista>)Value;
+        }
+        private object get_1_ItemLista_Id(object instance)
+        {
+            var that = (global::DengueApp.ItemLista)instance;
+            return that.Id;
+        }
+        private void set_1_ItemLista_Id(object instance, object Value)
+        {
+            var that = (global::DengueApp.ItemLista)instance;
+            that.Id = (global::System.String)Value;
+        }
+        private object get_2_ItemLista_Titulo(object instance)
+        {
+            var that = (global::DengueApp.ItemLista)instance;
+            return that.Titulo;
+        }
+        private void set_2_ItemLista_Titulo(object instance, object Value)
+        {
+            var that = (global::DengueApp.ItemLista)instance;
+            that.Titulo = (global::System.String)Value;
+        }
+        private object get_3_ItemLista_Subtitulo(object instance)
+        {
+            var that = (global::DengueApp.ItemLista)instance;
+            return that.Subtitulo;
+        }
+        private void set_3_ItemLista_Subtitulo(object instance, object Value)
+        {
+            var that = (global::DengueApp.ItemLista)instance;
+            that.Subtitulo = (global::System.String)Value;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -277,9 +320,27 @@ namespace DengueApp.DengueApp_WindowsPhone_XamlTypeInfo
             {
             case "DengueApp.AtividadesPage.ListItems":
                 userType = (global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DengueApp.AtividadesPage");
-                xamlMember = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlMember(this, "ListItems", "System.Collections.Generic.List`1<String>");
+                xamlMember = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlMember(this, "ListItems", "System.Collections.Generic.List`1<DengueApp.ItemLista>");
                 xamlMember.Getter = get_0_AtividadesPage_ListItems;
                 xamlMember.Setter = set_0_AtividadesPage_ListItems;
+                break;
+            case "DengueApp.ItemLista.Id":
+                userType = (global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DengueApp.ItemLista");
+                xamlMember = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlMember(this, "Id", "String");
+                xamlMember.Getter = get_1_ItemLista_Id;
+                xamlMember.Setter = set_1_ItemLista_Id;
+                break;
+            case "DengueApp.ItemLista.Titulo":
+                userType = (global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DengueApp.ItemLista");
+                xamlMember = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlMember(this, "Titulo", "String");
+                xamlMember.Getter = get_2_ItemLista_Titulo;
+                xamlMember.Setter = set_2_ItemLista_Titulo;
+                break;
+            case "DengueApp.ItemLista.Subtitulo":
+                userType = (global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DengueApp.ItemLista");
+                xamlMember = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlMember(this, "Subtitulo", "String");
+                xamlMember.Getter = get_3_ItemLista_Subtitulo;
+                xamlMember.Setter = set_3_ItemLista_Subtitulo;
                 break;
             }
             return xamlMember;

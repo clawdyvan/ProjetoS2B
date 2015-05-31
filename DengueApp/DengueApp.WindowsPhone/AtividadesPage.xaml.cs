@@ -12,39 +12,20 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using DengueApp.Model;
 
 namespace DengueApp
 {
     public sealed partial class AtividadesPage : Page
     {
 
-        public List<ItemLista> ListItems { get; set; }
+        public IList<ItemListaAtividades> ListItems { get; set; }
 
         public AtividadesPage()
         {
             this.InitializeComponent();
 
-            ListItems = new List<ItemLista>();
-
-            ListItems.Add(new ItemLista { 
-                Titulo = "Título1",
-                Subtitulo = "Subtítulo1"
-            });
-            ListItems.Add(new ItemLista
-            {
-                Titulo = "Título2",
-                Subtitulo = "Subtítulo2"
-            });
-            ListItems.Add(new ItemLista
-            {
-                Titulo = "Título3",
-                Subtitulo = "Subtítulo3"
-            });
-            ListItems.Add(new ItemLista
-            {
-                Titulo = "Título4",
-                Subtitulo = "Subtítulo4"
-            });
+            ListItems = AtividadesUtils.ObterListaAtividades();
 
             lvAtividades.ItemsSource = ListItems;
         }
@@ -59,11 +40,5 @@ namespace DengueApp
         {
         }
 
-    }
-
-    public class ItemLista
-    {
-        public string Titulo { get; set; }
-        public string Subtitulo { get; set; }
     }
 }
