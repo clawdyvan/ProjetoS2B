@@ -16,8 +16,11 @@
       <RootProperty Name="Children" />
       <RootProperty Name="Height" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="Background" />
+      <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Width" />
       <RootEvent Name="Loaded" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
@@ -44,7 +47,9 @@
       <RootProperty Name="Resources" />
       <RootProperty Name="RenderTransform" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.CheckBox" />
+    <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
+      <RootProperty Name="Background" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="FontSize" />
       <RootProperty Name="Text" />
@@ -92,5 +97,6 @@
       <RootProperty Name="ContentTemplate" />
     </RootType>
     <RootType FullName="DengueApp.MainPage" />
+    <RootType FullName="DengueApp.Styles_e_controles.StylesPersonalidados" />
   </Roots.RootTypes>
 </Roots>

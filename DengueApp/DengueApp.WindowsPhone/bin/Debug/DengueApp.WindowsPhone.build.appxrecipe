@@ -58,6 +58,9 @@
     <AppxPackagedFile Include="C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\Styles e controles\StylesPersonalidados.xbf">
+      <PackagePath>Styles e controles\StylesPersonalidados.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\DengueApp.WindowsPhone.xr.xml">
       <PackagePath>DengueApp.WindowsPhone.xr.xml</PackagePath>
     </AppxPackagedFile>
