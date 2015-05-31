@@ -8,18 +8,14 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-  <!-- apagar -->
-
     <Page.Resources>
 
         <Style x:Key="StyleHomeButtonPrincipal" TargetType="Button">
-            <Setter Property="BorderThickness" Value="3" />
-            <Setter Property="Margin" Value="2,0,0,0" />
+            <Setter Property="BorderThickness" Value="0" />
             <Setter Property="Height" Value="70" />
             <Setter Property="RenderTransformOrigin" Value="0.293,1.18" />
             <Setter Property="Background" Value="#FF10EA1B" />
             <Setter Property="Foreground" Value="#FF474444" />
-            <Setter Property="BorderBrush" Value="#FF20B95F" />
             <Setter Property="Width" Value="330" />
             <Setter Property="FontSize" Value="18" />
         </Style>
@@ -28,56 +24,41 @@
     </Page.Resources>
 
     <Grid Background="{ThemeResource AppBarItemForegroundThemeBrush}">
-        <StackPanel x:Name="stackPanel" HorizontalAlignment="Left" Height="292" VerticalAlignment="Top" Width="330" Margin="15,250,0,0" RenderTransformOrigin="0.5,0.5">
+        <StackPanel x:Name="stackPanel" HorizontalAlignment="Left" Height="292" VerticalAlignment="Top" Width="330" Margin="0,250,0,0" RenderTransformOrigin="0.5,0.5">
 
             <StackPanel.Resources>
 
                 <Style x:Key="StyleHomeButton" TargetType="Button">
+                    <Setter Property="HorizontalAlignment" Value="Left"></Setter>
                     <Setter Property="HorizontalAlignment" Value="Stretch" />
                     <Setter Property="VerticalAlignment" Value="Stretch" />
-                    <Setter Property="Margin" Value="2,0,0,0" />
-                    <Setter Property="BorderThickness" Value="0,0,0,2.5" />
+                    <Setter Property="BorderThickness" Value="0,0,0,1" />
                     <Setter Property="Background" Value="{x:Null}" />
                     <Setter Property="BorderBrush" Value="#FFBB0000" />
                     <Setter Property="Foreground" Value="#FFFB0000" />
                     <Setter Property="FontSize" Value="18" />
                 </Style>
-
-                <Style x:Key="StyleHomeButton1" TargetType="Button"                       
-                    BasedOn="{StaticResource StyleHomeButton}">
-                </Style>
-
-                <Style x:Key="StyleHomeButton2" TargetType="Button"
-                    BasedOn="{StaticResource StyleHomeButton}">
-                </Style>
-
-                <Style x:Key="StyleHomeButton3" TargetType="Button"
-                    BasedOn="{StaticResource StyleHomeButton}">
-                </Style>
-
-                <Style x:Key="StyleHomeButton4" TargetType="Button"
-                    BasedOn="{StaticResource StyleHomeButton}">
-                </Style>
-
-                <Style x:Key="StyleHomeButton5" TargetType="Button"
-                    BasedOn="{StaticResource StyleHomeButton}">
-                </Style>
-
-
+                
             </StackPanel.Resources>
             <StackPanel.RenderTransform>
                 <CompositeTransform/>
-            </StackPanel.RenderTransform>
-            <Button x:Name="btSintomas" Content="Sintomas" Style="{StaticResource StyleHomeButton1}"  />
-            <Button x:Name="btQDengue" Content="O que é a Dengue?" Style="{StaticResource StyleHomeButton2}"  />
-            <Button x:Name="btPrevencao" Content="Atividades de Prevenção" Style="{StaticResource StyleHomeButton3}" />
-            <Button x:Name="btMedicamentos" Content="Medicamentos" Style="{StaticResource StyleHomeButton4}"  />
-            <Button x:Name="btOutros" Content="Outro topico blablabla" Style="{StaticResource StyleHomeButton5}"  />
+                </StackPanel.RenderTransform>
+            <Button x:Name="buton1" Click="MenuHomeButtonClick" HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
+                <TextBlock Text="Sintomas" TextAlignment="Left"/>
+            </Button>
+            <Button x:Name="buton2" Click="MenuHomeButtonClick" HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
+                <TextBlock Text="Atividades de Prevenção" TextAlignment="Left"/>
+            </Button>
+            <Button x:Name="buton3" Click="MenuHomeButtonClick" HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
+                <TextBlock Text="Medicamentos" TextAlignment="Left"/>
+            </Button>
+            <Button x:Name="buton4" Click="MenuHomeButtonClick" HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
+                <TextBlock Text="Outro topico blablabla" TextAlignment="Left"/>
+            </Button>
+            </StackPanel>
 
-        </StackPanel>
-
-        <StackPanel HorizontalAlignment="Left" Height="106" Margin="10,161,0,0" VerticalAlignment="Top" Width="547">
-            <Button x:Name="btAtividades" Content="Já consultou suas Atividades hoje ?"
+        <StackPanel HorizontalAlignment="Left" Height="106" Margin="0,161,0,0" VerticalAlignment="Top" Width="547">
+            <Button x:Name="btAtividades" Content="Todas as atividades foram concluídas!"
         		Style="{StaticResource StyleHomeButtonPrincipal}"   />
 
         </StackPanel>
