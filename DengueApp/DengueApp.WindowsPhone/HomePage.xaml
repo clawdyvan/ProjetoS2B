@@ -8,8 +8,6 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-  <!-- apagar -->
-
     <Page.Resources>
 
         <Style x:Key="StyleHomeButtonPrincipal" TargetType="Button">
@@ -42,39 +40,18 @@
                     <Setter Property="Foreground" Value="#FFFB0000" />
                     <Setter Property="FontSize" Value="18" />
                 </Style>
-
-                <Style x:Key="StyleHomeButton1" TargetType="Button"                       
-                    BasedOn="{StaticResource StyleHomeButton}">
-                </Style>
-
-                <Style x:Key="StyleHomeButton2" TargetType="Button"
-                    BasedOn="{StaticResource StyleHomeButton}">
-                </Style>
-
-                <Style x:Key="StyleHomeButton3" TargetType="Button"
-                    BasedOn="{StaticResource StyleHomeButton}">
-                </Style>
-
-                <Style x:Key="StyleHomeButton4" TargetType="Button"
-                    BasedOn="{StaticResource StyleHomeButton}">
-                </Style>
-
-                <Style x:Key="StyleHomeButton5" TargetType="Button"
-                    BasedOn="{StaticResource StyleHomeButton}">
-                </Style>
-
-
+                
             </StackPanel.Resources>
             <StackPanel.RenderTransform>
                 <CompositeTransform/>
-            </StackPanel.RenderTransform>
-            <Button x:Name="btSintomas" Content="Sintomas" Style="{StaticResource StyleHomeButton1}"  />
-            <Button x:Name="btQDengue" Content="O que é a Dengue?" Style="{StaticResource StyleHomeButton2}"  />
-            <Button x:Name="btPrevencao" Content="Atividades de Prevenção" Style="{StaticResource StyleHomeButton3}" />
-            <Button x:Name="btMedicamentos" Content="Medicamentos" Style="{StaticResource StyleHomeButton4}"  />
-            <Button x:Name="btOutros" Content="Outro topico blablabla" Style="{StaticResource StyleHomeButton5}"  />
+                </StackPanel.RenderTransform>
+                    <Button x:Name="btSintomas" Content="Sintomas" Style="{StaticResource StyleHomeButton}"  />
+                    <Button x:Name="btQDengue" Content="O que é a Dengue?" Style="{StaticResource StyleHomeButton}"  />
+                    <Button x:Name="btPrevencao" Content="Atividades de Prevenção" Style="{StaticResource StyleHomeButton}" />
+                    <Button x:Name="btMedicamentos" Content="Medicamentos" Style="{StaticResource StyleHomeButton}"  />
+                    <Button x:Name="btOutros" Content="Outro topico blablabla" Style="{StaticResource StyleHomeButton}"  />
 
-        </StackPanel>
+            </StackPanel>
 
         <StackPanel HorizontalAlignment="Left" Height="106" Margin="10,161,0,0" VerticalAlignment="Top" Width="547">
             <Button x:Name="btAtividades" Content="Já consultou suas Atividades hoje ?"
