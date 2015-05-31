@@ -17,7 +17,7 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
 
-                    <Grid Height="80"  VerticalAlignment="Center">
+                    <Grid Height="80"  VerticalAlignment="Center" Background="White">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="90"/>
@@ -29,7 +29,9 @@
                         </StackPanel>
 
                         <Grid Grid.Column="1" VerticalAlignment="Center">
-                            <CheckBox/>
+                            <CheckBox Background="#FFE20A0A">
+                                
+                            </CheckBox>
                         </Grid>
                     </Grid>
 
@@ -37,6 +39,6 @@
             </ListView.ItemTemplate>
             
         </ListView>
-
+        
     </Grid>
 </Page>
