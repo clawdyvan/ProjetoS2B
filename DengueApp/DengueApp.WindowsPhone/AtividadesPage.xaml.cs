@@ -18,20 +18,27 @@ namespace DengueApp
 {
     public sealed partial class AtividadesPage : Page
     {
+
         public IList<ItemListaAtividades> ListItems { get; set; }
 
         public AtividadesPage()
         {
             this.InitializeComponent();
 
-
             ListItems = AtividadesUtils.ObterListaAtividades();
 
             lvAtividades.ItemsSource = ListItems;
         }
 
+        private void lvAtividades_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            string str = sender.ToString();
+        }
+
+
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
         }
+
     }
 }
