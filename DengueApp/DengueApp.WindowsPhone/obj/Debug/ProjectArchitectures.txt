@@ -1,1 +1,1 @@
-C:\Users\BRUNO\Desktop\ProjetoS2B-415ebd8595508414d74b9b213beed30746f9e920\DengueApp\DengueApp.WindowsPhone\DengueApp.WindowsPhone.csproj;neutral
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\DengueApp.WindowsPhone.csproj;neutral
