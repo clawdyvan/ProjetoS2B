@@ -6,21 +6,21 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    >
 
-    <Grid>
+    <Grid Background="{ThemeResource AppBarItemForegroundThemeBrush}">
 
         <Hub Margin="0, 50, 0, 0">
             
-            <HubSection Header="Home">
+            <HubSection Header="Home" Foreground="red">
                 <DataTemplate>
                     <Grid x:Name="section1" Loaded="HubSectionLoaded"/>
                 </DataTemplate>
             </HubSection>
 
-            <HubSection Header="Home">
+            <HubSection Header="Atividades" Foreground="red">
                 <DataTemplate>
-                    <Grid x:Name="section2" Loaded="HubSectionLoaded"/>
+                    <Grid x:Name="section2"  Loaded="HubSectionLoaded"/>
                 </DataTemplate>
             </HubSection>
             
