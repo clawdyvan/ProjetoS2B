@@ -139,3 +139,23 @@ C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\qua
 C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
 C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\ProjectArchitectures.txt
+C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\App.g.i.cs
+C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\App.g.cs
+C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\AtividadesPage.g.i.cs
+C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\AtividadesPage.g.cs
+C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\FuncionalidadesSecundariasPage.g.i.cs
+C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\FuncionalidadesSecundariasPage.g.cs
+C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\HomePage.g.i.cs
+C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\HomePage.g.cs
+C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\MainPage.g.i.cs
+C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\MainPage.g.cs
+C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\Styles e controles\StylesPersonalidados.g.i.cs
+C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\Styles e controles\StylesPersonalidados.g.cs
+C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\App.xaml
+C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\FuncionalidadesSecundariasPage.xaml
+C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\App.xbf
+C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\FuncionalidadesSecundariasPage.xbf
+C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\DengueApp.WindowsPhone.exe
+C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\DengueApp.WindowsPhone.pdb
