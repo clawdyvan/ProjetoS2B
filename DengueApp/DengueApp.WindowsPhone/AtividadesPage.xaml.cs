@@ -18,26 +18,52 @@ namespace DengueApp
     public sealed partial class AtividadesPage : Page
     {
 
-        public List<String> ListItems { get; set; }
+        public List<ItemLista> ListItems { get; set; }
 
         public AtividadesPage()
         {
             this.InitializeComponent();
 
-            ListItems = new List<string>();
+            ListItems = new List<ItemLista>();
 
-            ListItems.Add("Item1");
-            ListItems.Add("Item2");
-            ListItems.Add("Item3");
-            ListItems.Add("Item4");
-            ListItems.Add("Item5");
-            ListItems.Add("Item6");
+            ListItems.Add(new ItemLista { 
+                Titulo = "Título1",
+                Subtitulo = "Subtítulo1"
+            });
+            ListItems.Add(new ItemLista
+            {
+                Titulo = "Título2",
+                Subtitulo = "Subtítulo2"
+            });
+            ListItems.Add(new ItemLista
+            {
+                Titulo = "Título3",
+                Subtitulo = "Subtítulo3"
+            });
+            ListItems.Add(new ItemLista
+            {
+                Titulo = "Título4",
+                Subtitulo = "Subtítulo4"
+            });
 
             lvAtividades.ItemsSource = ListItems;
         }
 
+        private void lvAtividades_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            string str = sender.ToString();
+        }
+
+
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
         }
+
+    }
+
+    public class ItemLista
+    {
+        public string Titulo { get; set; }
+        public string Subtitulo { get; set; }
     }
 }
