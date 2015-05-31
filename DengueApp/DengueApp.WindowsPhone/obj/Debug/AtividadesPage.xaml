@@ -10,7 +10,33 @@
 
     <Grid>
 
-        <ListView x:Name="lvAtividades" />
+        <ListView x:ConnectionId='1' x:Name="lvAtividades"
+                  IsItemClickEnabled="True"
+                                                    >
+            
+            <ListView.ItemTemplate>
+                <DataTemplate>
+
+                    <Grid Height="80"  VerticalAlignment="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="90"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                            <TextBlock FontSize="25" Text="{Binding Titulo}" />
+                            <TextBlock Text="{Binding Subtitulo}" />
+                        </StackPanel>
+
+                        <Grid Grid.Column="1" VerticalAlignment="Center">
+                            <CheckBox/>
+                        </Grid>
+                    </Grid>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            
+        </ListView>
 
     </Grid>
 </Page>
