@@ -11,7 +11,6 @@
       <RootProperty Name="Content" />
       <RootProperty Name="Resources" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Children" />
       <RootProperty Name="Height" />
@@ -19,7 +18,6 @@
       <RootProperty Name="Background" />
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="Width" />
       <RootEvent Name="Loaded" />
       <RootMethod Name="GetColumn" />
@@ -53,6 +51,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="FontSize" />
       <RootProperty Name="Text" />
+      <RootProperty Name="Foreground" />
       <RootProperty Name="Inlines" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding" />

@@ -26,7 +26,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\DengueApp.Windows.exe">
       <PackagePath>DengueApp.Windows.exe</PackagePath>
-      <Modified>2015-05-31T20:27:42.010</Modified>
+      <Modified>2015-05-31T22:24:21.156</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -54,23 +54,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\AtividadesPage.xbf">
       <PackagePath>AtividadesPage.xbf</PackagePath>
-      <Modified>2015-05-31T20:26:46.538</Modified>
+      <Modified>2015-05-31T22:24:20.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\FuncionalidadesSecundariasPage.xbf">
       <PackagePath>FuncionalidadesSecundariasPage.xbf</PackagePath>
-      <Modified>2015-05-31T20:26:46.540</Modified>
+      <Modified>2015-05-31T22:24:20.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\HomePage.xbf">
       <PackagePath>HomePage.xbf</PackagePath>
-      <Modified>2015-05-31T20:26:46.548</Modified>
+      <Modified>2015-05-31T22:24:20.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-05-31T20:27:41.661</Modified>
+      <Modified>2015-05-31T22:24:20.541</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\DengueApp.Windows.xr.xml">
       <PackagePath>DengueApp.Windows.xr.xml</PackagePath>
-      <Modified>2015-05-31T20:27:41.633</Modified>
+      <Modified>2015-05-31T22:24:20.340</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
