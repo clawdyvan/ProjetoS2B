@@ -23,5 +23,44 @@ namespace DengueApp
         {
             this.InitializeComponent();
         }
+
+        private void HubSectionLoaded(object sender, RoutedEventArgs e)
+        {
+            var grid = (Grid)sender;
+            var page = this.GetPageForSection(grid.Name);
+
+            grid.Children.Add(page);
+        }
+
+        private Page GetPageForSection(String sectionName)
+        {
+
+            switch (sectionName)
+            {
+                case "section1":
+                    return new HomePage();
+
+                case "section2":
+                    return new AtividadesPage();
+
+                default:
+                    return null;
+            }
+        }
+/*
+        void HardwareButtons_BackPressed(object sender)
+        {
+            if (Frame.CanGoBack)
+            {
+                e.Handled = true;
+                Frame.GoBack();
+            }
+        }
+*/
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+
+        }
+
     }
 }

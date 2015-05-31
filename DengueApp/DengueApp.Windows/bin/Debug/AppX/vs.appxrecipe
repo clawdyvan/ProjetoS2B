@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>PC-SALA</Machine>
-    <WindowsUser>BRUNO</WindowsUser>
+    <Machine>S2B</Machine>
+    <WindowsUser>Vinicius</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>38e6d328-da52-46a4-878a-d490a0e2e8a1</PackageIdentityName>
-    <IntermediateOutputPath>c:\users\bruno\documents\visual studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>B1AFE1F8E388B8BAFEE60F57DAE4A5709BED23C95B0E5DB3688BB6A64AA03EC0</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>38e6d328-da52-46a4-878a-d490a0e2e8a1_1.0.0.0_neutral__aft5c8g3mpf2e</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>38e6d328-da52-46a4-878a-d490a0e2e8a1_aft5c8g3mpf2e!App</RegisteredUserModeAppID>
@@ -17,52 +17,64 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\bruno\documents\visual studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-30T18:37:38.834</Modified>
+      <Modified>2015-05-31T20:26:47.192</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\bruno\documents\visual studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\DengueApp.Windows.exe">
+    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\DengueApp.Windows.exe">
       <PackagePath>DengueApp.Windows.exe</PackagePath>
-      <Modified>2015-05-30T18:37:34.308</Modified>
+      <Modified>2015-05-31T22:24:21.156</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\bruno\documents\visual studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-03-14T13:55:28.000</Modified>
+      <Modified>2015-05-31T05:18:50.975</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\bruno\documents\visual studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-03-14T13:55:28.000</Modified>
+      <Modified>2015-05-31T05:18:50.976</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\bruno\documents\visual studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-03-14T13:55:28.000</Modified>
+      <Modified>2015-05-31T05:18:51.012</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\bruno\documents\visual studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-03-14T13:55:28.000</Modified>
+      <Modified>2015-05-31T05:18:51.015</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\bruno\documents\visual studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-05-30T18:37:33.457</Modified>
+      <Modified>2015-05-31T19:57:31.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\bruno\documents\visual studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\AtividadesPage.xbf">
+      <PackagePath>AtividadesPage.xbf</PackagePath>
+      <Modified>2015-05-31T22:24:20.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\FuncionalidadesSecundariasPage.xbf">
+      <PackagePath>FuncionalidadesSecundariasPage.xbf</PackagePath>
+      <Modified>2015-05-31T22:24:20.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\HomePage.xbf">
+      <PackagePath>HomePage.xbf</PackagePath>
+      <Modified>2015-05-31T22:24:20.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-05-30T18:37:33.463</Modified>
+      <Modified>2015-05-31T22:24:20.541</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\bruno\documents\visual studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\DengueApp.Windows.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\DengueApp.Windows.xr.xml">
       <PackagePath>DengueApp.Windows.xr.xml</PackagePath>
-      <Modified>2015-05-30T18:37:33.080</Modified>
+      <Modified>2015-05-31T22:24:20.340</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\bruno\documents\visual studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-05-30T18:37:34.864</Modified>
+      <Modified>2015-05-31T20:26:47.082</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
