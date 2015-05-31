@@ -1,0 +1,45 @@
+﻿<Page
+    x:Class="DengueApp.AtividadesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DengueApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+
+        <ListView x:ConnectionId='1' x:Name="lvAtividades"
+                  IsItemClickEnabled="True"
+                                                    >
+            
+            <ListView.ItemTemplate>
+                <DataTemplate>
+
+                    <Grid Height="80"  VerticalAlignment="Center" Background="White">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="90"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                            <TextBlock FontSize="25" Text="{Binding Titulo}" />
+                            <TextBlock Text="{Binding Subtitulo}" />
+                        </StackPanel>
+
+                        <Grid Grid.Column="1" VerticalAlignment="Center">
+                            <CheckBox Background="#FFE20A0A">
+                                
+                            </CheckBox>
+                        </Grid>
+                    </Grid>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            
+        </ListView>
+        
+    </Grid>
+</Page>
+

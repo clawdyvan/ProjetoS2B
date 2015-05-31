@@ -1,0 +1,84 @@
+﻿<Page
+    x:Class="DengueApp.HomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DengueApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="white">
+
+    <Page.Resources>
+
+        <Style x:Key="StyleHomeButtonPrincipal" TargetType="Button">
+            <Setter Property="BorderThickness" Value="5" />
+            <Setter Property="Margin" Value="-10,0,0,0" />
+            <Setter Property="Height" Value="101" />
+            <Setter Property="RenderTransformOrigin" Value="0.293,1.18" />
+            <Setter Property="Background" Value="#FF10EA1B" />
+            <Setter Property="Foreground" Value="#FF474444" />
+            <Setter Property="BorderBrush" Value="#FF20B95F" />
+            <Setter Property="Width" Value="550" />
+            <Setter Property="FontSize" Value="30" />
+        </Style>
+
+
+    </Page.Resources>
+
+    <Grid Background="white">
+        <Grid HorizontalAlignment="Left" Height="758" VerticalAlignment="Top" Width="683"/>
+        <StackPanel x:Name="stackPanel" HorizontalAlignment="Left" Height="461" VerticalAlignment="Top" Width="557" Margin="0,297,0,0" RenderTransformOrigin="0.5,0.5">
+
+            <StackPanel.Resources>
+
+                <Style x:Key="StyleHomeButton" TargetType="Button">
+                    <Setter Property="HorizontalAlignment" Value="Stretch" />
+                    <Setter Property="VerticalAlignment" Value="Stretch" />
+                    <Setter Property="BorderThickness" Value="0,0,0,5" />
+                    <Setter Property="Background" Value="{x:Null}" />
+                    <Setter Property="BorderBrush" Value="#FFBB0000" />
+                    <Setter Property="Foreground" Value="#FFFB0000" />
+                    <Setter Property="FontSize" Value="30" />
+                </Style>
+
+                <Style x:Key="StyleHomeButton1" TargetType="Button"                       
+                    BasedOn="{StaticResource StyleHomeButton}">
+                </Style>
+
+                <Style x:Key="StyleHomeButton2" TargetType="Button"
+                    BasedOn="{StaticResource StyleHomeButton}">
+                </Style>
+
+                <Style x:Key="StyleHomeButton3" TargetType="Button"
+                    BasedOn="{StaticResource StyleHomeButton}">
+                </Style>
+
+                <Style x:Key="StyleHomeButton4" TargetType="Button"
+                    BasedOn="{StaticResource StyleHomeButton}">
+                </Style>
+
+                <Style x:Key="StyleHomeButton5" TargetType="Button"
+                    BasedOn="{StaticResource StyleHomeButton}">
+                </Style>
+
+
+            </StackPanel.Resources>
+            <StackPanel.RenderTransform>
+                <CompositeTransform/>
+            </StackPanel.RenderTransform>
+            <Button x:Name="btSintomas" Content="Sintomas" Style="{StaticResource StyleHomeButton1}"  />
+            <Button x:Name="btQDengue" Content="O que é a Dengue?" Style="{StaticResource StyleHomeButton2}"  />
+            <Button x:Name="btPrevencao" Content="Atividades de Prevenção" Style="{StaticResource StyleHomeButton3}" />
+            <Button x:Name="btMedicamentos" Content="Medicamentos" Style="{StaticResource StyleHomeButton4}"  />
+            <Button x:Name="btOutros" Content="Outro topico blablabla" Style="{StaticResource StyleHomeButton5}"  />
+
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Left" Height="106" Margin="10,161,0,0" VerticalAlignment="Top" Width="547">
+            <Button x:Name="btAtividades" Content="Já consultou suas Atividades hoje ?"
+        		Style="{StaticResource StyleHomeButtonPrincipal}"  ClickMode="Hover"  />
+
+        </StackPanel>
+
+    </Grid>
+</Page>
