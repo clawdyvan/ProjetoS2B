@@ -29,7 +29,7 @@
                         </StackPanel>
 
                         <Grid Grid.Column="1" VerticalAlignment="Center">
-                            <CheckBox Background="#FFE20A0A">
+                            <CheckBox Margin="90,0,0,0" Background="#FFE20A0A">
                                 
                             </CheckBox>
                         </Grid>
