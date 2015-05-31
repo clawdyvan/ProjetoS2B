@@ -58,6 +58,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="DengueApp.AtividadesPage" />
+    <RootType FullName="DengueApp.DetalhesAtividadePage" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
       <RootProperty Name="Style" />

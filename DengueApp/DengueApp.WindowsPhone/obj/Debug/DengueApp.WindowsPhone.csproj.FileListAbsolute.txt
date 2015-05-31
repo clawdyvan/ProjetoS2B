@@ -144,3 +144,8 @@ C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\Sty
 C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\Styles e controles\StylesPersonalidados.xaml
 C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\Styles e controles\StylesPersonalidados.xbf
 C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\Styles e controles\StylesPersonalidados.xbf
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\DetalhesAtividadePage.xbf
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\DetalhesAtividadePage.g.i.cs
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\DetalhesAtividadePage.g.cs
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\DetalhesAtividadePage.xaml
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\DetalhesAtividadePage.xbf

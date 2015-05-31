@@ -109,3 +109,18 @@ C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\Den
 C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\AtividadesPage.xbf
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\FuncionalidadesSecundariasPage.xbf
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\HomePage.xbf
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\AtividadesPage.g.i.cs
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\AtividadesPage.g.cs
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\FuncionalidadesSecundariasPage.g.i.cs
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\FuncionalidadesSecundariasPage.g.cs
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\HomePage.g.i.cs
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\HomePage.g.cs
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\AtividadesPage.xaml
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\FuncionalidadesSecundariasPage.xaml
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\HomePage.xaml
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\AtividadesPage.xbf
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\FuncionalidadesSecundariasPage.xbf
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\HomePage.xbf
