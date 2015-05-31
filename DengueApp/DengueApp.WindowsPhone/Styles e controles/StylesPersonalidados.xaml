@@ -12,7 +12,7 @@
 
         
         <StackPanel>
-            <StackPanel.Resources x:Uid="StyleTeste">
+            <StackPanel.Resources>
                 <Style x:Key="StyleHomeButtonPrincipal" TargetType="Button">
                 <Setter Property="BorderThickness" Value="5" />
                 <Setter Property="Margin" Value="-10,0,0,0" />
