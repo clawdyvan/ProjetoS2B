@@ -12,15 +12,15 @@
 
         <Hub Margin="0, 50, 0, 0">
             
-            <HubSection Header="Home">
+            <HubSection Header="Home" Foreground="red">
                 <DataTemplate>
                     <Grid x:Name="section1" Loaded="HubSectionLoaded"/>
                 </DataTemplate>
             </HubSection>
 
-            <HubSection Header="Home">
+            <HubSection Header="Atividades" Foreground="red">
                 <DataTemplate>
-                    <Grid x:Name="section2" Loaded="HubSectionLoaded"/>
+                    <Grid x:Name="section2"  Loaded="HubSectionLoaded"/>
                 </DataTemplate>
             </HubSection>
             
