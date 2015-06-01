@@ -13,26 +13,25 @@
         <ListView x:Name="lvAtividades"
                   IsItemClickEnabled="True"
                   ItemClick="lvAtividades_ItemClick">
-            
+
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                    <Setter Property="Margin" Value="0, 5, 0, 5" />
+                </Style>
+            </ListView.ItemContainerStyle>
+
             <ListView.ItemTemplate>
                 <DataTemplate>
 
-                    <Grid Height="80"  VerticalAlignment="Center" Background="White">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="90"/>
-                        </Grid.ColumnDefinitions>
+                    <Grid>
 
-                        <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                        <StackPanel Background="Black" VerticalAlignment="Center">
                             <TextBlock FontSize="25" Text="{Binding Titulo}" />
                             <TextBlock Text="{Binding Subtitulo}" />
                         </StackPanel>
 
-                        <Grid Grid.Column="1" VerticalAlignment="Center">
-                            <CheckBox Margin="90,0,0,0" Background="#FFE20A0A">
-                                
-                            </CheckBox>
-                        </Grid>
+                        <CheckBox HorizontalAlignment="Right"  Background="Blue"/>
                     </Grid>
 
                 </DataTemplate>
