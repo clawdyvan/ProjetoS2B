@@ -31,7 +31,7 @@
                             <TextBlock Text="{Binding Subtitulo}" />
                         </StackPanel>
 
-                        <CheckBox Width="40" Height="40" HorizontalAlignment="Right"  Background="Blue"/>
+                        <CheckBox HorizontalAlignment="Right"  Background="Blue"/>
                     </Grid>
 
                 </DataTemplate>

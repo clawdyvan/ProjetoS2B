@@ -46,6 +46,9 @@
     <AppxPackagedFile Include="C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\AividadeDetalhesPage.xbf">
+      <PackagePath>AividadeDetalhesPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\AtividadesPage.xbf">
       <PackagePath>AtividadesPage.xbf</PackagePath>
     </AppxPackagedFile>

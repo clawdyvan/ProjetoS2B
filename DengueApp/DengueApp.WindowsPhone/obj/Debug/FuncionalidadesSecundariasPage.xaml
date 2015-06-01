@@ -6,14 +6,9 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource AppBarItemForegroundThemeBrush}">
+    Background="White">
 
     <Grid>
-        <StackPanel Margin="0, 50, 0, 0">
-            <TextBlock FontSize="30">TSasdfasd</TextBlock>
-        </StackPanel>
-        
-        <Button>asdfa</Button>
 
     </Grid>
 </Page>

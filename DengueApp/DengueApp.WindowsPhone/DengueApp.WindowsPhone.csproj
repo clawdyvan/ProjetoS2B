@@ -83,6 +83,9 @@
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AividadeDetalhesPage.xaml.cs">
+      <DependentUpon>AividadeDetalhesPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AtividadesPage.xaml.cs">
       <DependentUpon>AtividadesPage.xaml</DependentUpon>
     </Compile>
@@ -116,6 +119,10 @@
     <Content Include="Assets\WideLogo.scale-240.png" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="AividadeDetalhesPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AtividadesPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

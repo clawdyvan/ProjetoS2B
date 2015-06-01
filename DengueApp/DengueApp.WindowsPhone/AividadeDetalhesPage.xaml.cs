@@ -12,34 +12,28 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-using DengueApp.Model;
+
+// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
 
 namespace DengueApp
 {
-    public sealed partial class AtividadesPage : Page
+    /// <summary>
+    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// </summary>
+    public sealed partial class AividadeDetalhesPage : Page
     {
-
-        public IList<ItemListaAtividades> ListItems { get; set; }
-
-        public AtividadesPage()
+        public AividadeDetalhesPage()
         {
             this.InitializeComponent();
-
-            ListItems = AtividadesUtils.ObterListaAtividades();
-
-            lvAtividades.ItemsSource = ListItems;
         }
 
-        private void lvAtividades_ItemClick(object sender, ItemClickEventArgs e)
-        {
-            var frame = Window.Current.Content as Frame;
-            frame.Navigate(typeof(AividadeDetalhesPage));
-        }
-
-
+        /// <summary>
+        /// Invoked when this page is about to be displayed in a Frame.
+        /// </summary>
+        /// <param name="e">Event data that describes how this page was reached.
+        /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
         }
-
     }
 }
