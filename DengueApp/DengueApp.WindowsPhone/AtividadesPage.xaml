@@ -27,11 +27,11 @@
                     <Grid>
 
                         <StackPanel Background="Black" VerticalAlignment="Center">
-                            <TextBlock FontSize="25" Text="{Binding Titulo}" />
+                            <TextBlock FontSize="18" Text="{Binding Titulo}" />
                             <TextBlock Text="{Binding Subtitulo}" />
                         </StackPanel>
 
-                        <CheckBox IsChecked="{Binding AtividadeConcluida, Mode=TwoWay}" Click="LvAtividades_CheckBox_Changed" HorizontalAlignment="Right"  Background="Blue"/>
+                        <CheckBox IsChecked="{Binding AtividadeConcluida, Mode=TwoWay}" Click="LvAtividades_CheckBox_Changed" HorizontalAlignment="Right"  Background="Blue" Margin="0,0,-120,0" IsThreeState="True"/>
                     </Grid>
 
                 </DataTemplate>
