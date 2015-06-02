@@ -12,7 +12,7 @@
 
         <ListView x:Name="lvAtividades"
                   IsItemClickEnabled="True"
-                  ItemClick="lvAtividades_ItemClick">
+                  ItemClick="LvAtividades_ItemClick">
 
             <ListView.ItemContainerStyle>
                 <Style TargetType="ListViewItem">
@@ -31,7 +31,7 @@
                             <TextBlock Text="{Binding Subtitulo}" />
                         </StackPanel>
 
-                        <CheckBox HorizontalAlignment="Right"  Background="Blue"/>
+                        <CheckBox IsChecked="{Binding AtividadeConcluida, Mode=TwoWay}" Click="LvAtividades_CheckBox_Changed" HorizontalAlignment="Right"  Background="Blue"/>
                     </Grid>
 
                 </DataTemplate>

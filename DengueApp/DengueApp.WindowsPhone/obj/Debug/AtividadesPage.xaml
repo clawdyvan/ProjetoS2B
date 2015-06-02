@@ -31,7 +31,7 @@
                             <TextBlock Text="{Binding Subtitulo}" />
                         </StackPanel>
 
-                        <CheckBox HorizontalAlignment="Right"  Background="Blue"/>
+                        <CheckBox x:ConnectionId='2' IsChecked="{Binding AtividadeConcluida, Mode=TwoWay}"                                       HorizontalAlignment="Right"  Background="Blue"/>
                     </Grid>
 
                 </DataTemplate>

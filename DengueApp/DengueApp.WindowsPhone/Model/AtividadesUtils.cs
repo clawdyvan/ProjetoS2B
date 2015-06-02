@@ -23,23 +23,28 @@ namespace DengueApp.Model
 
             listaAtividades.Add(new ItemListaAtividades
             {
-                Titulo = "Título1",
+                Id = 0,
+                Titulo = "Lavar pratinho da planta",
                 Subtitulo = "Subtítulo1"
             });
             listaAtividades.Add(new ItemListaAtividades
             {
-                Titulo = "Título2",
+                Id = 1,
+                Titulo = "Olhar atrás da geladeira",
                 Subtitulo = "Subtítulo2"
             });
             listaAtividades.Add(new ItemListaAtividades
             {
-                Titulo = "Título3",
+                Id = 2,
+                Titulo = "Limpar calhas",
                 Subtitulo = "Subtítulo3"
             });
             listaAtividades.Add(new ItemListaAtividades
             {
-                Titulo = "Título4",
-                Subtitulo = "Subtítulo4"
+                Id = 3,
+                Titulo = "Verificar o quintal",
+                Subtitulo = "Subtítulo4",
+                AtividadeConcluida = true
             });
 
             return listaAtividades;
@@ -50,7 +55,7 @@ namespace DengueApp.Model
             return Windows.Storage.ApplicationData.Current.LocalFolder;
         }
 
-        private static async Task GravarEstadoDasAtividades(IList<ItemListaAtividades> list)
+        public static async void GravarEstadoDasAtividades(IList<ItemListaAtividades> list)
         {
 
             var pastaAtividades = await ObterPastaLocalDoAplicativo()
@@ -65,12 +70,31 @@ namespace DengueApp.Model
             {
                 serializer.WriteObject(streamForWrite, list);
             }
+        }
+
+        public static async Task<IList<ItemListaAtividades>> LerEstadoDasAtividades() 
+        {
+
+            var pastaAtividades = await ObterPastaLocalDoAplicativo()
+                .CreateFolderAsync(PASTA_ATIVIDADES, CreationCollisionOption.OpenIfExists);
+
+            var arquivoAtividades = await pastaAtividades
+                .CreateFileAsync(ARQUIVO_ATIVIDADES, CreationCollisionOption.OpenIfExists);
+
+            var serializer = new DataContractSerializer(typeof(IList<ItemListaAtividades>));
+
+            IList<ItemListaAtividades> list = null;
 
             using (var streamForRead = await arquivoAtividades.OpenStreamForReadAsync())
             {
-                var teste1 = serializer.ReadObject(streamForRead);
-                var teste2 = teste1;
+                try
+                {
+                    list = (IList<ItemListaAtividades>)serializer.ReadObject(streamForRead);
+                }
+                catch (Exception ex) { }
             }
+
+            return list;
 
         }
 
