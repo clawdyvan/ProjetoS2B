@@ -25,9 +25,12 @@ namespace DengueApp
         public AtividadesPage()
         {
             this.InitializeComponent();
+            this.LerEstadoDasAtividades();
+        }
 
-            lerListaAtividadesGravada();
-
+        private void LvAtividades_CheckBox_Changed(object sender, RoutedEventArgs e)
+        {
+            this.GravarEstadoDasAtividades();
         }
 
         private void LvAtividades_ItemClick(object sender, ItemClickEventArgs e)
@@ -36,24 +39,23 @@ namespace DengueApp
             frame.Navigate(typeof(AividadeDetalhesPage));
         }
 
-
-        protected override void OnNavigatedTo(NavigationEventArgs e)
-        {
-        }
-
-        private void LvAtividades_CheckBox_Changed(object sender, RoutedEventArgs e)
+        private void GravarEstadoDasAtividades()
         {
             AtividadesUtils.GravarEstadoDasAtividades(ListItems);
         }
 
-        private async void lerListaAtividadesGravada()
+        private async void LerEstadoDasAtividades()
         {
             ListItems = await AtividadesUtils.LerEstadoDasAtividades();
             if (ListItems == null)
             {
-                ListItems = AtividadesUtils.ObterListaAtividades();
+                ListItems = AtividadesUtils.ObterListaAtividadesEstaticas();
             }
             lvAtividades.ItemsSource = ListItems;
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
         }
 
     }

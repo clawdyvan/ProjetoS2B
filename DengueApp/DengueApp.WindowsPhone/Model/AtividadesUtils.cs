@@ -16,7 +16,7 @@ namespace DengueApp.Model
         private const string PASTA_ATIVIDADES = "PastaAtividades";
         private const string ARQUIVO_ATIVIDADES = "ArquivoAtividades.ser";
 
-        public static IList<ItemListaAtividades> ObterListaAtividades()
+        public static IList<ItemListaAtividades> ObterListaAtividadesEstaticas()
         {
 
             var listaAtividades = new List<ItemListaAtividades>();
@@ -91,14 +91,12 @@ namespace DengueApp.Model
                 {
                     list = (IList<ItemListaAtividades>)serializer.ReadObject(streamForRead);
                 }
-                catch (Exception ex) { }
+                catch (Exception) { }
             }
 
             return list;
 
         }
-
-
 
     }
 }
