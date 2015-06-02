@@ -12,25 +12,39 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
+using DengueApp.Model;
+using Windows.UI;
 
 namespace DengueApp
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
-    public sealed partial class HomePage : Page
+
+    public sealed partial class HomePage : Page, IQuantidadeListener 
     {
         public HomePage()
         {
             this.InitializeComponent();
+            MainPage.QuantidadeAlteradaListeners.Add(this);
         }
 
         private void MenuHomeButtonClick(object sender, RoutedEventArgs e)
         {
             var frame = Window.Current.Content as Frame;
             frame.Navigate(typeof(FuncionalidadesSecundariasPage));
+        }
+
+        public void AlterarQuantidade(int numeroDeConcluídas, int totalDeAtividades)
+        {
+
+            if (numeroDeConcluídas == totalDeAtividades)
+            {
+                btAtividades.Background = new SolidColorBrush(Color.FromArgb(255, 17, 255, 41));
+                btAtividades.Content = "Prabéns, tudo concluído! =)";
+            }
+            else
+            {
+                btAtividades.Background = new SolidColorBrush(Color.FromArgb(255, 255, 17, 17));
+                btAtividades.Content = "Ainda faltam atividades! =(";
+            }
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)

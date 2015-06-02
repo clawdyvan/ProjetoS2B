@@ -13,16 +13,32 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using DengueApp.Model;
 
 namespace DengueApp
 {
-    public sealed partial class MainPage : Page
+    public sealed partial class MainPage : Page, IQuantidadeListener
     {
+
+        public static MainPage SingletonPage { get; set; }
+        public static IList<IQuantidadeListener> QuantidadeAlteradaListeners { get; set; }
+
         public MainPage()
         {
             this.InitializeComponent();
             this.NavigationCacheMode = NavigationCacheMode.Required;
             HardwareButtons.BackPressed += HardwareButtons_BackPressed;
+
+            SingletonPage = this;
+            QuantidadeAlteradaListeners = new List<IQuantidadeListener>();
+        }
+
+        public void AlterarQuantidade(int quantidade, int total)
+        {
+            foreach (var listener in QuantidadeAlteradaListeners)
+            {
+                listener.AlterarQuantidade(quantidade, total);
+            }
         }
 
         private void HubSectionLoaded(object sender, RoutedEventArgs e)

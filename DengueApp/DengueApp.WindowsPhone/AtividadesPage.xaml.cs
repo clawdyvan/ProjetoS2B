@@ -17,10 +17,8 @@ using System.Threading.Tasks;
 
 namespace DengueApp
 {
-    public sealed partial class AtividadesPage : Page
+    public sealed partial class AtividadesPage : Page, IQuantidadeListener
     {
-
-        public IList<ItemListaAtividades> ListItems { get; set; }
 
         public AtividadesPage()
         {
@@ -41,17 +39,35 @@ namespace DengueApp
 
         private void GravarEstadoDasAtividades()
         {
-            AtividadesUtils.GravarEstadoDasAtividades(ListItems);
+
+            var listItems = (IList<ItemListaAtividades>)lvAtividades.ItemsSource;
+            AtividadesUtils.GravarEstadoDasAtividades(listItems);
+
+            this.atualizarQuantidade(listItems);
         }
 
         private async void LerEstadoDasAtividades()
         {
-            ListItems = await AtividadesUtils.LerEstadoDasAtividades();
+            var ListItems = await AtividadesUtils.LerEstadoDasAtividades();
             if (ListItems == null)
             {
                 ListItems = AtividadesUtils.ObterListaAtividadesEstaticas();
             }
             lvAtividades.ItemsSource = ListItems;
+            this.atualizarQuantidade(ListItems);
+        }
+
+        private void atualizarQuantidade(IList<ItemListaAtividades> list)
+        {
+            var numeroDeConcluídas = list.Where(a => a.AtividadeConcluida).ToList<ItemListaAtividades>().Count;
+            int totalDeAtividades = list.Count;
+
+            this.AlterarQuantidade(numeroDeConcluídas, totalDeAtividades);
+        }
+
+        public void AlterarQuantidade(int quantidade, int total)
+        {
+            MainPage.SingletonPage.AlterarQuantidade(quantidade, total);
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
