@@ -28,7 +28,11 @@
 
                         <StackPanel Background="Black" VerticalAlignment="Center">
                             <TextBlock FontSize="18" Text="{Binding Titulo}" />
-                            <TextBlock Name="teste" Text="{Binding DataUltimaConclusao, Mode=TwoWay}" />
+                            
+                            <StackPanel Name="spIformaçõesDatas" Orientation="Horizontal">
+                                <TextBlock Margin="5,0,5,0" Name="tbDataUltimaConclusao" Text="{Binding DataUltimaConclusao, Mode=TwoWay}" />
+                                <TextBlock Text="{Binding DiasRestantesMensagem, Mode=TwoWay}"></TextBlock>
+                            </StackPanel>
                         </StackPanel>
 
                         <CheckBox x:ConnectionId='2' IsChecked="{Binding AtividadeConcluida, Mode=TwoWay}" 

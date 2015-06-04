@@ -11,6 +11,7 @@ namespace DengueApp.Model
         public int Id { get; set; }
         public string Titulo { get; set; }
         public int DiasDeValidade { get; set; }
+        public string DiasRestantesMensagem { get; set; }
         public string DataUltimaConclusao { get; set; }
         public bool AtividadeConcluida { get; set; }
     }
