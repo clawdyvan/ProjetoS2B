@@ -28,7 +28,7 @@
 
                         <StackPanel Background="Black" VerticalAlignment="Center">
                             <TextBlock FontSize="18" Text="{Binding Titulo}" />
-                            <TextBlock Text="{Binding Subtitulo}" />
+                            <TextBlock Name="teste" Text="{Binding DataUltimaConclusao, Mode=TwoWay}" />
                         </StackPanel>
 
                         <CheckBox IsChecked="{Binding AtividadeConcluida, Mode=TwoWay}" 

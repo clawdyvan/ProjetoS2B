@@ -2,7 +2,7 @@
 <Roots >
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="AtividadeConcluida" />
-    <RootPropertyPathName Name="Subtitulo" />
+    <RootPropertyPathName Name="DataUltimaConclusao" />
     <RootPropertyPathName Name="Titulo" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
@@ -33,9 +33,9 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
       <RootProperty Name="HorizontalContentAlignment" />
       <RootProperty Name="BorderThickness" />
-      <RootProperty Name="Background" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="Background" />
       <RootProperty Name="BorderBrush" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.FrameworkElement">
@@ -77,15 +77,16 @@
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="FontSize" />
       <RootProperty Name="Text" />
+      <RootProperty Name="Name" />
       <RootProperty Name="TextAlignment" />
     </RootType>
     <RootType FullName="DengueApp.AtividadesPage" />
     <RootType FullName="DengueApp.FuncionalidadesSecundariasPage" />
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="Content" />
       <RootProperty Name="Style" />
       <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="Content" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.UIElement">

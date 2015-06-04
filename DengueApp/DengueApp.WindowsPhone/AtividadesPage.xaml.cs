@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using DengueApp.Model;
 using System.Threading.Tasks;
+using System.Collections.ObjectModel;
 
 namespace DengueApp
 {
@@ -28,6 +29,16 @@ namespace DengueApp
 
         private void LvAtividades_CheckBox_Changed(object sender, RoutedEventArgs e)
         {
+
+            var checkbox = (CheckBox)sender;
+            var grid = (Grid)checkbox.Parent;
+            var tbData = (TextBlock)grid.FindName("teste");
+
+            if ((bool)checkbox.IsChecked)
+            {
+                tbData.Text = DateTime.Today.ToString("dd/MM/yyyy");
+            }
+
             this.GravarEstadoDasAtividades();
         }
 
@@ -36,6 +47,9 @@ namespace DengueApp
             var frame = Window.Current.Content as Frame;
             frame.Navigate(typeof(AividadeDetalhesPage));
         }
+
+
+
 
         private void GravarEstadoDasAtividades()
         {
@@ -53,9 +67,34 @@ namespace DengueApp
             {
                 ListItems = AtividadesUtils.ObterListaAtividadesEstaticas();
             }
+
+            var dataDeHoje = DateTime.Today;
+
+            foreach(var item in ListItems) {
+
+                var dataFormatada = item.DataUltimaConclusao.Split('/');
+                var dataUltimaConclusaoItem = new DateTime(
+                    Convert.ToInt16(dataFormatada[2]),
+                    Convert.ToInt16(dataFormatada[1]),
+                    Convert.ToInt16(dataFormatada[0])
+                    );
+
+                var totalDeDiasDesdeUltimaConclusao = (dataDeHoje - dataUltimaConclusaoItem).TotalDays;
+
+                if (totalDeDiasDesdeUltimaConclusao > item.DiasDeValidade)
+                {
+                    item.AtividadeConcluida = false;
+                }
+
+            }
+
+
             lvAtividades.ItemsSource = ListItems;
             this.atualizarQuantidade(ListItems);
         }
+
+
+
 
         private void atualizarQuantidade(IList<ItemListaAtividades> list)
         {
