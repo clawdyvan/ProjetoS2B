@@ -72,7 +72,14 @@ namespace DengueApp
 
             foreach(var item in ListItems) {
 
-                var dataFormatada = item.DataUltimaConclusao.Split('/');
+                var dataUltimaConclusao = item.DataUltimaConclusao;
+
+                if (dataUltimaConclusao == null)
+                {
+                    continue;
+                }
+
+                var dataFormatada = dataUltimaConclusao.Split('/');
                 var dataUltimaConclusaoItem = new DateTime(
                     Convert.ToInt16(dataFormatada[2]),
                     Convert.ToInt16(dataFormatada[1]),
