@@ -25,26 +25,25 @@ namespace DengueApp.Model
             {
                 Id = 0,
                 Titulo = "Lavar pratinho da planta",
-                Subtitulo = "Subtítulo1"
+                DiasDeValidade = 1
             });
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 1,
                 Titulo = "Olhar atrás da geladeira",
-                Subtitulo = "Subtítulo2"
+                DiasDeValidade = 2
             });
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 2,
                 Titulo = "Limpar calhas",
-                Subtitulo = "Subtítulo3"
+                DiasDeValidade = 1
             });
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 3,
                 Titulo = "Verificar o quintal",
-                Subtitulo = "Subtítulo4",
-                AtividadeConcluida = true
+                DiasDeValidade = 4
             });
 
             return listaAtividades;

@@ -28,10 +28,17 @@
 
                         <StackPanel Background="Black" VerticalAlignment="Center">
                             <TextBlock FontSize="18" Text="{Binding Titulo}" />
-                            <TextBlock Text="{Binding Subtitulo}" />
+                            
+                            <StackPanel Name="spIformaçõesDatas" Orientation="Horizontal">
+                                <TextBlock Margin="5,0,5,0" Name="tbDataUltimaConclusao" Text="{Binding DataUltimaConclusao, Mode=TwoWay}" />
+                                <TextBlock Text="{Binding DiasRestantesMensagem, Mode=TwoWay}"></TextBlock>
+                            </StackPanel>
                         </StackPanel>
 
-                        <CheckBox IsChecked="{Binding AtividadeConcluida, Mode=TwoWay}" Click="LvAtividades_CheckBox_Changed" HorizontalAlignment="Right"  Background="Blue" Margin="0,0,-120,0" IsThreeState="True"/>
+                        <CheckBox IsChecked="{Binding AtividadeConcluida, Mode=TwoWay}" 
+                                  Click="LvAtividades_CheckBox_Changed"
+                                  HorizontalAlignment="Right"
+                                  Background="Blue" Margin="0,0,-120,0"/>
                     </Grid>
 
                 </DataTemplate>

@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using DengueApp.Model;
 using System.Threading.Tasks;
+using System.Collections.ObjectModel;
 
 namespace DengueApp
 {
@@ -28,7 +29,24 @@ namespace DengueApp
 
         private void LvAtividades_CheckBox_Changed(object sender, RoutedEventArgs e)
         {
-            this.GravarEstadoDasAtividades();
+
+            var checkbox = (CheckBox)sender;
+            var panel = (Panel)checkbox.Parent;
+
+            if ((bool)checkbox.IsChecked)
+            {
+                var tbDataUltimaConclusao = (TextBlock)panel.FindName("tbDataUltimaConclusao");
+                tbDataUltimaConclusao.Text = DateTime.Today.ToString("dd/MM/yyyy");
+            }
+
+            var listItems = (IList<ItemListaAtividades>)lvAtividades.ItemsSource;
+
+            listItems = ProcessarDadosLista(listItems);
+
+            lvAtividades.ItemsSource = null;
+            lvAtividades.ItemsSource = listItems;
+
+            this.GravarEstadoDasAtividades(listItems);
         }
 
         private void LvAtividades_ItemClick(object sender, ItemClickEventArgs e)
@@ -37,24 +55,59 @@ namespace DengueApp
             frame.Navigate(typeof(AividadeDetalhesPage));
         }
 
-        private void GravarEstadoDasAtividades()
+        private void GravarEstadoDasAtividades(IList<ItemListaAtividades> listItems)
         {
-
-            var listItems = (IList<ItemListaAtividades>)lvAtividades.ItemsSource;
             AtividadesUtils.GravarEstadoDasAtividades(listItems);
-
             this.atualizarQuantidade(listItems);
         }
 
         private async void LerEstadoDasAtividades()
         {
-            var ListItems = await AtividadesUtils.LerEstadoDasAtividades();
-            if (ListItems == null)
+            var listItems = await AtividadesUtils.LerEstadoDasAtividades();
+            if (listItems == null)
             {
-                ListItems = AtividadesUtils.ObterListaAtividadesEstaticas();
+                listItems = AtividadesUtils.ObterListaAtividadesEstaticas();
             }
-            lvAtividades.ItemsSource = ListItems;
-            this.atualizarQuantidade(ListItems);
+
+            listItems = ProcessarDadosLista(listItems);
+
+            lvAtividades.ItemsSource = listItems;
+            this.atualizarQuantidade(listItems);
+        }
+
+        private IList<ItemListaAtividades> ProcessarDadosLista(IList<ItemListaAtividades> listItems)
+        {
+            var dataDeHoje = DateTime.Today;
+
+            foreach (var item in listItems)
+            {
+                try
+                {
+                    var dataFormatada = item.DataUltimaConclusao.Split('/');
+                    var dataUltimaConclusaoItem = new DateTime(
+                        Convert.ToInt16(dataFormatada[2]),
+                        Convert.ToInt16(dataFormatada[1]),
+                        Convert.ToInt16(dataFormatada[0]));
+
+                    var totalDeDiasDesdeUltimaConclusao = (int)(dataDeHoje - dataUltimaConclusaoItem).TotalDays;
+
+                    if (totalDeDiasDesdeUltimaConclusao >= item.DiasDeValidade || !item.AtividadeConcluida)
+                    {
+                        item.AtividadeConcluida = false;
+                        item.DiasRestantesMensagem = "";
+                        item.DataUltimaConclusao = "";
+                    }
+                    else
+                    {
+                        var diferencaDias = item.DiasDeValidade - totalDeDiasDesdeUltimaConclusao;
+                        item.DiasRestantesMensagem = diferencaDias < 0 ? "" :
+                            (" -  Resta" + (diferencaDias > 1 ? "m" : "") + " " + diferencaDias + " dia" + (diferencaDias > 1 ? "s" : ""));
+                    }
+                }
+                catch (Exception) { }
+            }
+
+            return listItems;
         }
 
         private void atualizarQuantidade(IList<ItemListaAtividades> list)
