@@ -43,6 +43,48 @@
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\Aedes_sombra foto.png">
+      <PackagePath>ImagensParaAsTelas\Aedes_sombra foto.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\Dedonegado.png">
+      <PackagePath>ImagensParaAsTelas\Dedonegado.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\Dedopositivo.png">
+      <PackagePath>ImagensParaAsTelas\Dedopositivo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_APETITI.png">
+      <PackagePath>ImagensParaAsTelas\IMAG_BONECO_APETITI.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_cabeça.png">
+      <PackagePath>ImagensParaAsTelas\IMAG_BONECO_cabeça.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_corpo.png">
+      <PackagePath>ImagensParaAsTelas\IMAG_BONECO_corpo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_DORBARI.png">
+      <PackagePath>ImagensParaAsTelas\IMAG_BONECO_DORBARI.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_FADIGA.png">
+      <PackagePath>ImagensParaAsTelas\IMAG_BONECO_FADIGA.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_FEBRE.png">
+      <PackagePath>ImagensParaAsTelas\IMAG_BONECO_FEBRE.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_HEMORR.png">
+      <PackagePath>ImagensParaAsTelas\IMAG_BONECO_HEMORR.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_MAN.png">
+      <PackagePath>ImagensParaAsTelas\IMAG_BONECO_MAN.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_OLHOS.png">
+      <PackagePath>ImagensParaAsTelas\IMAG_BONECO_OLHOS.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\LampadaLigada.png">
+      <PackagePath>ImagensParaAsTelas\LampadaLigada.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\molecule_sombra cor.png">
+      <PackagePath>ImagensParaAsTelas\molecule_sombra cor.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
@@ -60,6 +102,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\OqeDenguePage.xbf">
+      <PackagePath>OqeDenguePage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\Styles e controles\StylesPersonalidados.xbf">
       <PackagePath>Styles e controles\StylesPersonalidados.xbf</PackagePath>
