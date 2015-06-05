@@ -149,3 +149,60 @@ C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\Aiv
 C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\AividadeDetalhesPage.xbf
 C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\AividadeDetalhesPage.xaml
 C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\AividadeDetalhesPage.xbf
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\App.xbf
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\AividadeDetalhesPage.xbf
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\AtividadesPage.xbf
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\FuncionalidadesSecundariasPage.xbf
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\HomePage.xbf
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\MainPage.xbf
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\Styles e controles\StylesPersonalidados.xbf
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\DengueApp.WindowsPhone.xr.xml
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\DengueApp.WindowsPhone.exe
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\DengueApp.WindowsPhone.pdb
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\resources.pri
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\AppxManifest.xml
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\DengueApp.WindowsPhone.build.appxrecipe
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\App.g.i.cs
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\App.g.cs
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\AividadeDetalhesPage.g.i.cs
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\AividadeDetalhesPage.g.cs
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\AtividadesPage.g.i.cs
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\AtividadesPage.g.cs
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\FuncionalidadesSecundariasPage.g.i.cs
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\FuncionalidadesSecundariasPage.g.cs
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\HomePage.g.i.cs
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\HomePage.g.cs
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\MainPage.g.i.cs
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\MainPage.g.cs
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\Styles e controles\StylesPersonalidados.g.i.cs
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\Styles e controles\StylesPersonalidados.g.cs
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\App.xaml
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\AividadeDetalhesPage.xaml
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\AtividadesPage.xaml
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\FuncionalidadesSecundariasPage.xaml
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\HomePage.xaml
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\MainPage.xaml
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\Styles e controles\StylesPersonalidados.xaml
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\App.xbf
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\AividadeDetalhesPage.xbf
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\AtividadesPage.xbf
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\FuncionalidadesSecundariasPage.xbf
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\HomePage.xbf
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\MainPage.xbf
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\Styles e controles\StylesPersonalidados.xbf
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\DengueApp.WindowsPhone.exe
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\DengueApp.WindowsPhone.pdb
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\priconfig.xml
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\priconfig.xml.intermediate
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\layout.resfiles
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\layout.resfiles.intermediate
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\resources.resfiles
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\resources.resfiles.intermediate
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\pri.resfiles
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\pri.resfiles.intermediate
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\qualifiers.txt
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\ProjectArchitectures.txt
