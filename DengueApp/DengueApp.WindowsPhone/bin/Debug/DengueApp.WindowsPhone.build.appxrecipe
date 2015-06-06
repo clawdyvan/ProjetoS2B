@@ -94,6 +94,9 @@
     <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\AtividadesPage.xbf">
       <PackagePath>AtividadesPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\ContraIndicacoesPage.xbf">
+      <PackagePath>ContraIndicacoesPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\FuncionalidadesSecundariasPage.xbf">
       <PackagePath>FuncionalidadesSecundariasPage.xbf</PackagePath>
     </AppxPackagedFile>
