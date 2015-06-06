@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="DengueApp.OqueFazerPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DengueApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="White">
+        <Button Background="#F44336" Foreground="White" BorderBrush="White"  HorizontalAlignment="Left" Height="89" Margin="10,40,0,0" VerticalAlignment="Top" Width="153"/>
+        <Image Source="ImagensParaTelas/arrow1.png" Margin="34,63,1246,659" />
+        <Rectangle Fill="#3bbb87" HorizontalAlignment="Left" Height="44" Margin="625,233,0,0" Stroke="#3bbb87" VerticalAlignment="Top" Width="741"/>
+        <Rectangle Fill="#3bbb87" HorizontalAlignment="Left" Height="17" Margin="0,260,0,0" Stroke="#3bbb87" VerticalAlignment="Top" Width="638"/>
+        <TextBlock Foreground="#E57373" FontFamily="Century Gothic" FontSize="39" HorizontalAlignment="Left" Height="55" Margin="28,222,0,0" TextWrapping="Wrap" Text="O que fazer ?" VerticalAlignment="Top" Width="610"/>
+        <TextBlock Foreground="Black" FontFamily="Century Gothic" FontSize="45" HorizontalAlignment="Left" Height="346" Margin="28,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="1292">
+      		<Run Text="A dengue é uma doença que a sua cura não é tratando o vírus e sim seus sintomas. "/>
+  	    	<LineBreak/>
+       		<Run Text="Lembre-se tomando medidas para a não propagação do mosquito, constitui o papel principal para o combate da doença."/>
+        </TextBlock>
+
+    </Grid>
+</Page>
