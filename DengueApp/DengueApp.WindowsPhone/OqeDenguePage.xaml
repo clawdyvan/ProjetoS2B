@@ -10,12 +10,12 @@
 
     <Grid>
         <Rectangle Fill="#FF008BB2" Height="159" Margin="37,27,37,0" VerticalAlignment="Top"/>
-        <Image Source="ImagensParaAsTelas/Aedes_sombra foto.png" Margin="37,64,39,387" />
+        <Image Source="ImagensParaAsTelas/Aedes_sombra foto.png" Margin="37,64,39,416" />
         <TextBlock FontSize="31" FontFamily="Century Gothic"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="37,50,0,0" Height="41" Width="280">
         	<Run Text="O que é Dengue"/>
         	<Run Text="?"/>
         </TextBlock>
-        <TextBlock FontSize="14" FontFamily="Century Gothic" Foreground="Black" HorizontalAlignment="Left" Height="123" Margin="37,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326" TextAlignment="Justify">
+        <TextBlock FontSize="16" FontFamily="Century Gothic" Foreground="Black" HorizontalAlignment="Left" Height="155" Margin="24,303,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="366" TextAlignment="Justify">
         	<Run Text="A dengue é uma doença causada por um vírus transmitida pela picada de um mosquito chamado "/>
            	<Span FontStyle="Italic" FontSize="14" FontFamily="Century Gothic">
         		<Run Text="Aedes Aegypti"/>
@@ -25,17 +25,17 @@
                <Run Text="Aedes"/>
             </Span>     
             <Run Text=" é muito confundido com pernilongo porem apresenta características peculiares como:"/>
-            </TextBlock>
-        <TextBlock FontFamily="Century Gothic" FontSize="14" Foreground="Black" HorizontalAlignment="Left" Height="124" Margin="37,399,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326" FontWeight="Bold">
-        	<Run Text="    Possui listas brancas e pretas."/>
+        </TextBlock>
+        <TextBlock FontFamily="Century Gothic" FontSize="18" Foreground="#0277BD" HorizontalAlignment="Left" Height="175" Margin="35,427,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="355" FontWeight="Bold">
+        	<Run Text="#Possui listas brancas e pretas."/>
         	<LineBreak/>
         	<Run/>
         	<LineBreak/>
-        	<Run Text="   Costuma picar de manhazinha e o fim da tarde, principalmente nas pernas tornozelos ou pés."/>
+        	<Run Text="#Costuma picar de manhazinha e o fim da tarde, principalmente nas pernas tornozelos ou pés."/>
         	<LineBreak/>
         	<Run/>
         	<LineBreak/>
-        	<Run Text="   Mede cerca de 0,5 mm."/>
+        	<Run Text="#Mede cerca de 0,5 mm."/>
         </TextBlock>
 
     </Grid>

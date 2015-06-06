@@ -11,8 +11,8 @@
     <Grid>
 
         <Rectangle Fill="#F44336" Height="159" Margin="37,27,37,0" VerticalAlignment="Top"/>
-        <Image Source="ImagensParaAsTelas/Dedonegado.png" Margin="104,45,104,454"></Image>
-        <TextBlock Foreground="Black" FontFamily="Century Gothic" FontSize="16" HorizontalAlignment="Left" Height="323" Margin="37,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326">
+        <Image Source="ImagensParaAsTelas/Dedonegado.png" Margin="106,27,106,537" RenderTransformOrigin="0.497,-0.046"></Image>
+        <TextBlock Foreground="Black" FontFamily="Century Gothic" FontSize="20" Height="439" Margin="37,191,0,-36" TextWrapping="Wrap" Width="353" VerticalAlignment="Top" HorizontalAlignment="Left">
         	<Span>
         		<Run Text="Se estiver com dengue ou suspeita "/>
         	</Span>
@@ -26,7 +26,7 @@
         	<LineBreak/>
         	<Run Text="Tomar remédios que contenha ácido acetilsalicílico "/>
         	<LineBreak/>
-        	<Run Text="(Exemplos: AAS®, Aspirina®,Melhoral®...)"/>
+        	<Run Text="(Exemplos:AAS®,Aspirina®,Melhoral®...)"/>
         	<LineBreak/>
         	<LineBreak/>
         	<Run Text="Tomar remédios antinflamatórios "/>

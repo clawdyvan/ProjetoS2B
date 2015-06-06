@@ -10,8 +10,8 @@
 
     <Grid>
         <Rectangle Fill="#3bbb87" Height="159" Margin="37,27,37,0" VerticalAlignment="Top"/>
-        <Image Source="ImagensParaAsTelas/LampadaLigada.png" Margin="104,27,104,454"/>
-        <TextBlock Foreground="Black" FontFamily="Century Gothic" FontSize="19" HorizontalAlignment="Left" Height="378" Margin="37,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326">
+        <Image Source="ImagensParaAsTelas/LampadaLigada.png" Margin="106,27,106,537"/>
+        <TextBlock Foreground="Black" FontFamily="Century Gothic" FontSize="25" HorizontalAlignment="Left" Height="373" Margin="37,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="353">
       		<Run Text="A dengue é uma doença que a sua cura não é tratando o vírus, propriamente dito, e sim seus sintomas. "/>
   	    	<LineBreak/>
        		<Run Text="Lembre-se tomando medidas para a não propagação do mosquito, constitui o papel principal para o combate da doença."/>

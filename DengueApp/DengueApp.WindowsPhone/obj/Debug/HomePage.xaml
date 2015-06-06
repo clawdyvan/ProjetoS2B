@@ -42,17 +42,20 @@
             <StackPanel.RenderTransform>
                 <CompositeTransform/>
                 </StackPanel.RenderTransform>
-            <Button x:ConnectionId='1' x:Name="buton1"                             HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
+            <Button x:ConnectionId='1' x:Name="btOqeDengue"                             HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
+                <TextBlock Text="O que é Dengue ?" TextAlignment="Left"/>
+            </Button>
+            <Button x:ConnectionId='2' x:Name="btSintomas"                             HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
                 <TextBlock Text="Sintomas" TextAlignment="Left"/>
             </Button>
-            <Button x:ConnectionId='2' x:Name="buton2"                             HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
-                <TextBlock Text="Atividades de Prevenção" TextAlignment="Left"/>
+            <Button x:ConnectionId='3' x:Name="btIndica"                             HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
+                <TextBlock Text="Indicações" TextAlignment="Left"/>
             </Button>
-            <Button x:ConnectionId='3' x:Name="buton3"                             HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
-                <TextBlock Text="Medicamentos" TextAlignment="Left"/>
+            <Button x:ConnectionId='4' x:Name="btContraidicação"                             HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
+                <TextBlock Text="ContraIndicações" TextAlignment="Left"/>
             </Button>
-            <Button x:ConnectionId='4' x:Name="buton4"                             HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
-                <TextBlock Text="Outro topico blablabla" TextAlignment="Left"/>
+            <Button x:ConnectionId='5' x:Name="btOqfazer"                             HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
+                <TextBlock Text="O que fazer !" TextAlignment="Left"/>
             </Button>
             </StackPanel>
 

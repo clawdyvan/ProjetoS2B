@@ -42,17 +42,20 @@
             <StackPanel.RenderTransform>
                 <CompositeTransform/>
                 </StackPanel.RenderTransform>
-            <Button x:Name="buton1" Click="MenuHomeButtonClick" HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
+            <Button x:Name="btOqeDengue" Click="MenuHomeButtonClick" HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
+                <TextBlock Text="O que é Dengue ?" TextAlignment="Left"/>
+            </Button>
+            <Button x:Name="btSintomas" Click="MenuHomeButtonClick" HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
                 <TextBlock Text="Sintomas" TextAlignment="Left"/>
             </Button>
-            <Button x:Name="buton2" Click="MenuHomeButtonClick" HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
-                <TextBlock Text="Atividades de Prevenção" TextAlignment="Left"/>
+            <Button x:Name="btIndica" Click="MenuHomeButtonClick" HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
+                <TextBlock Text="Indicações" TextAlignment="Left"/>
             </Button>
-            <Button x:Name="buton3" Click="MenuHomeButtonClick" HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
-                <TextBlock Text="Medicamentos" TextAlignment="Left"/>
+            <Button x:Name="btContraidicação" Click="MenuHomeButtonClick" HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
+                <TextBlock Text="ContraIndicações" TextAlignment="Left"/>
             </Button>
-            <Button x:Name="buton4" Click="MenuHomeButtonClick" HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
-                <TextBlock Text="Outro topico blablabla" TextAlignment="Left"/>
+            <Button x:Name="btOqfazer" Click="MenuHomeButtonClick" HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
+                <TextBlock Text="O que fazer !" TextAlignment="Left"/>
             </Button>
             </StackPanel>
 

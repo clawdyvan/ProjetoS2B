@@ -28,8 +28,36 @@ namespace DengueApp
 
         private void MenuHomeButtonClick(object sender, RoutedEventArgs e)
         {
+            
             var frame = Window.Current.Content as Frame;
-            frame.Navigate(typeof(FuncionalidadesSecundariasPage));
+            var button = (Button) sender;
+            var type = GetPageForHomeButtonClick(button.Name);
+            frame.Navigate(type);
+        }
+       
+        private Type GetPageForHomeButtonClick(String sectionName)
+        {
+
+            switch (sectionName)
+            {
+                case "btOqeDengue":
+                    return typeof(OqeDenguePage);
+
+                case "btSintomas":
+                    return typeof(SintomasPage);
+
+                case "btIndica":
+                    return typeof(IndicacoesPage);
+
+                case "btContraidicação":
+                    return typeof(ContraIndicacoesPage);
+
+                case "btOqfazer":
+                    return typeof(OqFazerPage);
+
+                 default:
+                    return null;
+            }
         }
 
         public void AlterarQuantidade(int numeroDeConcluídas, int totalDeAtividades)

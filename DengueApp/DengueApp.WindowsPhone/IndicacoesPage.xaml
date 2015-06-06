@@ -10,8 +10,8 @@
 
     <Grid>
         <Rectangle Fill="#4CAF50" Height="159" Margin="37,27,37,0" VerticalAlignment="Top"/>
-        <Image Source="ImagensParaAsTelas/Dedopositivo.png" Margin="104,27,104,472"/>
-        <TextBlock Foreground="Black" FontFamily="Century Gothic" FontSize="16" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.553,2.35" Margin="37,191,0,0" Height="326" Width="326">
+        <Image Source="ImagensParaAsTelas/Dedopositivo.png" Margin="106,27,106,537"/>
+        <TextBlock Foreground="Black" FontFamily="Century Gothic" FontSize="22" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.553,2.35" Margin="37,191,0,0" Height="439" Width="353">
     		<Run Text="Se estiver com dengue ou suspeita "/>
          	<Span Foreground="#FF70AD47" FontWeight="Bold">
         		<Run Text="é recomendado:"/>
