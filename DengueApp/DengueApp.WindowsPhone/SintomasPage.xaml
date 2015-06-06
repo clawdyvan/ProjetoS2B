@@ -32,20 +32,18 @@
             <TextBlock FontSize="18" Foreground="Black" Height="46" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Manchas na pele e coceira." Width="243" RenderTransformOrigin="0.679,0.532" Margin="119,-9,0,0" />
             <Image Source="ImagensParaAsTelas/IMAG_BONECO_MAN.png" Height="82" Width="102" Margin="0,-64,0,10"/>
             <TextBlock FontSize="16" Height="48" FontFamily="Century Gothic" Foreground="#FFB71C1C" FontWeight="Black" TextWrapping="Wrap" Text="Hemorrágica" Width="368"/>
-            <TextBlock FontSize="16" Height="48" FontFamily="Century Gothic" Foreground="Black" FontWeight="Black" TextWrapping="Wrap" Text="Os sintomas iniciais será a mesma da DC, mas no 3 ou no 4 dia poderá haver complicações pois:" Width="368"/>
-            <Image Source="ImagensParaAsTelas/IMAG_BONECO_DORBARI.png" Height="82" Width="102" Margin="0,-64,0,10"/>
+            <TextBlock FontSize="16" Height="48" FontFamily="Century Gothic" Foreground="Black" FontWeight="Black" TextWrapping="Wrap" Text="Os sintomas iniciais será a mesma da DC, mas no 3 ou no 4 dia poderá haver complicações como:" Width="368"/>
             <TextBlock FontSize="18" Foreground="Black" Height="39" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Muita dor abdominal" Width="243" RenderTransformOrigin="0.679,0.532" Margin="119,9,0,0" />
-            <Image Source="ImagensParaAsTelas/IMAG_BONECO_HEMORR.png" Height="82" Width="102" Margin="0,-64,0,10"/>
-            <TextBlock FontSize="18" Foreground="Black" Height="39" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Manifestações hemorrágica espontânea (nariz e gengivas)" Width="243" RenderTransformOrigin="0.679,0.532" Margin="119,9,0,0" />
-            <TextBlock FontSize="18" Foreground="Black" Height="39" TextWrapping="Wrap" FontFamily="Centery Gothic" Text=" Debilidade profunda" Width="243" RenderTransformOrigin="0.679,0.532" Margin="66,9,0,0" />
+            <Image Source="ImagensParaAsTelas/IMAG_BONECO_DORBARI.png" Height="82" Width="102" Margin="0,-44,0,10"/>
+            <TextBlock FontSize="18" Foreground="Black" Height="46" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Manifestações hemorrágica espontânea (nariz e gengivas)" Width="243" RenderTransformOrigin="0.679,0.532" Margin="119,9,0,0" />
+            <Image Source="ImagensParaAsTelas/IMAG_BONECO_HEMORR.png" Height="82" Width="102" Margin="0,-44,0,10"/>
             <LineBreak/>
-            <TextBlock FontSize="18" Foreground="Black" Height="39" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Agitação ou letargia" Width="243" RenderTransformOrigin="0.679,0.532" Margin="66,9,0,0" />
-            <LineBreak/>
-            <TextBlock FontSize="18" Foreground="Black" Height="39" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Palidez no rosto" Width="243" RenderTransformOrigin="0.679,0.532" Margin="66,9,0,0" />
-            <LineBreak/>
-            <TextBlock FontSize="18" Foreground="Black" Height="39" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Pulso rápido e fraco" Width="243" RenderTransformOrigin="0.679,0.532" Margin="66,9,0,0" />
-            <LineBreak/>
-            <TextBlock FontSize="18" Foreground="Black" Height="39" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Diminuição significativo da temperatura corporal" Width="243" RenderTransformOrigin="0.679,0.532" Margin="66,9,0,0" />
+            <TextBlock FontSize="18" Foreground="Black" Height="39" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Debilidade profunda" Width="243" RenderTransformOrigin="0.679,0.532" Margin="66,-43,0,0" />
+            <TextBlock FontSize="18" Foreground="Black" Height="39" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Agitação ou letargia" Width="243" RenderTransformOrigin="0.679,0.532" Margin="66,-6,0,0" />
+            <TextBlock FontSize="18" Foreground="Black" Height="39" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Palidez no rosto" Width="243" RenderTransformOrigin="0.679,0.532" Margin="66,33,0,0" />
+            <TextBlock FontSize="18" Foreground="Black" Height="39" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Pulso rápido e fraco" Width="243" RenderTransformOrigin="0.679,0.532" Margin="66,48,0,0" />
+            <TextBlock FontSize="18" Foreground="Black" Height="46" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Diminuição significativo da temperatura corporal" Width="243" RenderTransformOrigin="0.679,0.532" Margin="66,54,0,0" />
+            
 
         </ListView>
 
