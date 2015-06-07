@@ -20,6 +20,7 @@ namespace DengueApp
 
     public sealed partial class HomePage : Page, IQuantidadeListener 
     {
+
         public HomePage()
         {
             this.InitializeComponent();
@@ -58,6 +59,11 @@ namespace DengueApp
                  default:
                     return null;
             }
+        }
+
+        private void IrParaSectionDois(object sender, RoutedEventArgs e)
+        {
+            MainPage.SingletonPage.IrParaSectionDois();
         }
 
         public void AlterarQuantidade(int numeroDeConcluídas, int totalDeAtividades)

@@ -8,7 +8,28 @@
     mc:Ignorable="d"
     Background="White">
 
-    <Grid>
-    </Grid>
+    <StackPanel>
+        
+
+        <Grid Name="gdRetangulo" 
+              Background="#0277BD"
+              Height="180"
+              Margin="30, 20, 30, 0">
+
+            <Image Name="imImagem"
+               Height="160"
+               Width="160"
+               Source="ImagensParaAsTelas/mosquito.png"/>
+        </Grid>
+
+        <TextBlock Name="tbTexto" 
+                   Foreground="#333" 
+                   FontFamily="Century Gothic" 
+                   FontSize="25" 
+                   HorizontalAlignment="Stretch"
+                   TextWrapping="Wrap"
+                   Margin="30, 20, 30, 0"/>
+
+    </StackPanel>
 </Page>
 

@@ -35,5 +35,10 @@ namespace DengueApp
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
         }
+
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

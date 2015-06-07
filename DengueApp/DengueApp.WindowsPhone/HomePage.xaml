@@ -6,67 +6,59 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="White">
 
     <Page.Resources>
 
         <Style x:Key="StyleHomeButtonPrincipal" TargetType="Button">
             <Setter Property="BorderThickness" Value="0" />
-            <Setter Property="Height" Value="70" />
-            <Setter Property="RenderTransformOrigin" Value="0.293,1.18" />
-            <Setter Property="Foreground" Value="#FF474444" />
-            <Setter Property="Width" Value="330" />
+            <Setter Property="Height" Value="170" />
+            <Setter Property="Foreground" Value="#FFF" />
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="FontSize" Value="24" />
+        </Style>
+
+        <Style x:Key="StyleHomeButton" TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="BorderThickness" Value="0,0,0,1" />
+            <Setter Property="BorderBrush" Value="#333" />
+            <Setter Property="Foreground" Value="#333" />
             <Setter Property="FontSize" Value="18" />
         </Style>
 
-
     </Page.Resources>
 
-    <Grid Background="{ThemeResource AppBarItemForegroundThemeBrush}">
-        <StackPanel x:Name="stackPanel" HorizontalAlignment="Left" Height="292" VerticalAlignment="Top" Width="330" Margin="0,250,0,0" RenderTransformOrigin="0.5,0.5">
+    <Grid Margin="0, 20, 0, 20">
+        
+        <Grid VerticalAlignment="Top">
+            <Button x:Name="btAtividades" Style="{StaticResource StyleHomeButtonPrincipal}"
+                    Click="IrParaSectionDois"/>
+        </Grid>
+        <StackPanel VerticalAlignment="Bottom">
 
-            <StackPanel.Resources>
-
-                <Style x:Key="StyleHomeButton" TargetType="Button">
-                    <Setter Property="HorizontalAlignment" Value="Left"></Setter>
-                    <Setter Property="HorizontalAlignment" Value="Stretch" />
-                    <Setter Property="VerticalAlignment" Value="Stretch" />
-                    <Setter Property="BorderThickness" Value="0,0,0,1" />
-                    <Setter Property="Background" Value="{x:Null}" />
-                    <Setter Property="BorderBrush" Value="#FFBB0000" />
-                    <Setter Property="Foreground" Value="#FFFB0000" />
-                    <Setter Property="FontSize" Value="18" />
-                </Style>
-                
-            </StackPanel.Resources>
-            <StackPanel.RenderTransform>
-                <CompositeTransform/>
-                </StackPanel.RenderTransform>
-            <Button x:Name="btOqeDengue" Click="MenuHomeButtonClick" HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
+            <Button x:Name="btOqeDengue" Click="MenuHomeButtonClick" 
+                    HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
                 <TextBlock Text="O que é Dengue ?" TextAlignment="Left"/>
             </Button>
-            <Button x:Name="btSintomas" Click="MenuHomeButtonClick" HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
+            <Button x:Name="btSintomas" Click="MenuHomeButtonClick" 
+                    HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
                 <TextBlock Text="Sintomas" TextAlignment="Left"/>
             </Button>
-            <Button x:Name="btIndica" Click="MenuHomeButtonClick" HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
+            <Button x:Name="btIndica" Click="MenuHomeButtonClick" 
+                    HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
                 <TextBlock Text="Indicações" TextAlignment="Left"/>
             </Button>
-            <Button x:Name="btContraidicação" Click="MenuHomeButtonClick" HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
+            <Button x:Name="btContraidicação" Click="MenuHomeButtonClick" 
+                    HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
                 <TextBlock Text="ContraIndicações" TextAlignment="Left"/>
             </Button>
-            <Button x:Name="btOqfazer" Click="MenuHomeButtonClick" HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
-                <TextBlock Text="O que fazer !" TextAlignment="Left"/>
+            <Button x:Name="btOqfazer" Click="MenuHomeButtonClick" 
+                    HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
+                <TextBlock Text="O que fazer!" TextAlignment="Left"/>
             </Button>
-            </StackPanel>
-
-        <StackPanel HorizontalAlignment="Left" Height="106" Margin="0,161,0,0" VerticalAlignment="Top" Width="547">
-            <Button x:Name="btAtividades" Style="{StaticResource StyleHomeButtonPrincipal}"   />
-
         </StackPanel>
-
-
-
+        
     </Grid>
-
 
 </Page>

@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Navigation;
 using DengueApp.Model;
 using System.Threading.Tasks;
 using System.Collections.ObjectModel;
+using Windows.UI;
 
 namespace DengueApp
 {
@@ -52,7 +53,37 @@ namespace DengueApp
         private void LvAtividades_ItemClick(object sender, ItemClickEventArgs e)
         {
             var frame = Window.Current.Content as Frame;
-            frame.Navigate(typeof(AividadeDetalhesPage));
+
+            var item = (ItemListaAtividades)e.ClickedItem;
+
+            var parametros = GetParametersForItemClick(item.Id);
+
+            frame.Navigate(typeof(AividadeDetalhesPage), parametros);
+        }
+
+        public dynamic GetParametersForItemClick(int itemId)
+        {
+
+            switch (itemId)
+            {
+                case 0:
+                    return new {
+                        Texto = "texto texto texto", // atenção, coloque o texto em um arquivo de resources, não cole um parágrafo inteiro aqui no código c#, pois fica feio! Veja mais informações em https://msdn.microsoft.com/en-us/library/windows/apps/ff637520%28v=vs.105%29.aspx ou no google!
+                        StrUriImagem = "ms-appx:///ImagensParaAsTelas/mosquito.png",
+                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 17, 255, 41)) };
+                case 1:
+                    return new
+                    {
+                        Texto = "texto2 texto2 texto2", // atenção, coloque o texto em um arquivo de resources, não cole um parágrafo inteiro aqui no código c#, pois fica feio! Veja mais informações em https://msdn.microsoft.com/en-us/library/windows/apps/ff637520%28v=vs.105%29.aspx ou no google!
+                        StrUriImagem = "ms-appx:///ImagensParaAsTelas/Dedopositivo.png",
+                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 17, 17, 41))
+                    };
+
+                default:
+                    return null;
+            }
+
+            
         }
 
         private void GravarEstadoDasAtividades(IList<ItemListaAtividades> listItems)

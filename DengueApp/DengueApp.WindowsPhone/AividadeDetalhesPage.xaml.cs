@@ -11,8 +11,11 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
-
+using Windows.Media;
+using Windows.UI;
+using System.Globalization;
 
 namespace DengueApp
 {
@@ -23,9 +26,22 @@ namespace DengueApp
         {
             this.InitializeComponent();
         }
- 
+
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            var parametros = (dynamic)e.Parameter;
+
+            tbTexto.Text = parametros.Texto;
+
+            string strUriImagem = parametros.StrUriImagem;
+
+            BitmapImage bitmapImage = new BitmapImage();
+            Uri uri = new Uri(strUriImagem);
+            bitmapImage.UriSource = uri;
+
+            imImagem.Source = bitmapImage;
+            gdRetangulo.Background = parametros.SolidColorBrush;
+
         }
     }
 }
