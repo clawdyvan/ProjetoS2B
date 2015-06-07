@@ -74,6 +74,11 @@ namespace DengueApp
             }
         }
 
+        public void IrParaSectionDois()
+        {
+            hub.ScrollToSection(hs2);
+        }
+
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
 

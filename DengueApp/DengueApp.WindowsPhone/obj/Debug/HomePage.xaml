@@ -32,7 +32,8 @@
     <Grid Margin="0, 20, 0, 20">
         
         <Grid VerticalAlignment="Top">
-            <Button x:Name="btAtividades" Style="{StaticResource StyleHomeButtonPrincipal}"/>
+            <Button x:ConnectionId='6' x:Name="btAtividades" Style="{StaticResource StyleHomeButtonPrincipal}"
+                                             />
         </Grid>
         <StackPanel VerticalAlignment="Bottom">
 

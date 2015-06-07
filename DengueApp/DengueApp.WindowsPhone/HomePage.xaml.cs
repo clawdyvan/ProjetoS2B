@@ -60,6 +60,11 @@ namespace DengueApp
             }
         }
 
+        private void IrParaSectionDois(object sender, RoutedEventArgs e)
+        {
+            MainPage.SingletonPage.IrParaSectionDois();
+        }
+
         public void AlterarQuantidade(int numeroDeConcluídas, int totalDeAtividades)
         {
 

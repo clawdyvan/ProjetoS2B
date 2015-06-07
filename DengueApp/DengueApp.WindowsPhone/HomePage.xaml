@@ -32,7 +32,8 @@
     <Grid Margin="0, 20, 0, 20">
         
         <Grid VerticalAlignment="Top">
-            <Button x:Name="btAtividades" Style="{StaticResource StyleHomeButtonPrincipal}"/>
+            <Button x:Name="btAtividades" Style="{StaticResource StyleHomeButtonPrincipal}"
+                    Click="IrParaSectionDois"/>
         </Grid>
         <StackPanel VerticalAlignment="Bottom">
 

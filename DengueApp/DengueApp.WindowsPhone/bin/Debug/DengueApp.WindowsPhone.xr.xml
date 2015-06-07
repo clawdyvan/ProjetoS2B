@@ -142,6 +142,7 @@
     <RootType FullName="DengueApp.IndicacoesPage" />
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Hub">
+      <RootProperty Name="Name" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Sections" />
     </RootType>
@@ -149,6 +150,7 @@
       <RootProperty Name="Header" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="ContentTemplate" />
+      <RootProperty Name="Name" />
     </RootType>
     <RootType FullName="DengueApp.MainPage" />
     <RootType FullName="DengueApp.OqeDenguePage" />

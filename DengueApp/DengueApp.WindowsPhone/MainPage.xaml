@@ -9,7 +9,7 @@
 
     <Grid Background="{ThemeResource AppBarItemForegroundThemeBrush}">
 
-        <Hub Margin="0, 50, 0, 0">
+        <Hub Name="hub" Margin="0, 50, 0, 0">
 
             <HubSection Header="Home" Foreground="#0277BD">
                 <DataTemplate>
@@ -17,7 +17,7 @@
                 </DataTemplate>
             </HubSection>
 
-            <HubSection Header="Atividades" Foreground="#0277BD">
+            <HubSection Name="hs2" Header="Atividades" Foreground="#0277BD">
                 <DataTemplate>
                     <Grid x:Name="section2"  Loaded="HubSectionLoaded"/>
                 </DataTemplate>
