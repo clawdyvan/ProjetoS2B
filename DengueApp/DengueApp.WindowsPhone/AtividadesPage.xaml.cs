@@ -42,9 +42,8 @@ namespace DengueApp
 
             var listItems = (IList<ItemListaAtividades>)lvAtividades.ItemsSource;
 
-            listItems = ProcessarDadosLista(listItems);
+            listItems = ProcessarDadosLista(new List<ItemListaAtividades>(listItems));
 
-            lvAtividades.ItemsSource = null;
             lvAtividades.ItemsSource = listItems;
 
             this.GravarEstadoDasAtividades(listItems);
