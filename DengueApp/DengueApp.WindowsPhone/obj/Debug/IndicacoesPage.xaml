@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="DengueApp.IndicacoesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DengueApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="White">
+
+    <Grid>
+        <Rectangle Fill="#4CAF50" Height="159" Margin="37,27,37,0" VerticalAlignment="Top"/>
+        <Image Source="ImagensParaAsTelas/Dedopositivo.png" Margin="106,27,106,537"/>
+        <TextBlock Foreground="Black" FontFamily="Century Gothic" FontSize="22" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.553,2.35" Margin="37,191,0,0" Height="439" Width="353">
+    		<Run Text="Se estiver com dengue ou suspeita "/>
+         	<Span Foreground="#FF70AD47" FontWeight="Bold">
+        		<Run Text="é recomendado:"/>
+        	</Span>
+        	<LineBreak/>
+        	<LineBreak/>
+        	<Run Text="Manter hidratado bebendo água"/>
+        	<LineBreak/>
+        	<LineBreak/>
+        	<Run Text="Descansar"/>
+        	<LineBreak/>
+        	<LineBreak/>
+        	<Run Text="Se alimentar"/>
+        	<LineBreak/>
+        	<LineBreak/>
+        	<Run Text="Tomar soro (num posto de saúde ou hospital)"/>
+        	<LineBreak/>
+        	<LineBreak/>
+        	<Run  Text="Só tomar remédios com prescrição médica"/>
+        </TextBlock>
+
+    </Grid>
+</Page>
+
