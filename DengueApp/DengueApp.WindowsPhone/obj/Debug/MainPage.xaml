@@ -5,20 +5,19 @@
     xmlns:local="using:DengueApp"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
-    >
+    mc:Ignorable="d">
 
     <Grid Background="{ThemeResource AppBarItemForegroundThemeBrush}">
 
         <Hub Margin="0, 50, 0, 0">
-            
-            <HubSection Header="Home" Foreground="red">
+
+            <HubSection Header="Home" Foreground="#0277BD">
                 <DataTemplate>
                     <Grid x:ConnectionId='2' x:Name="section1"                          />
                 </DataTemplate>
             </HubSection>
 
-            <HubSection Header="Atividades" Foreground="red">
+            <HubSection Header="Atividades" Foreground="#0277BD">
                 <DataTemplate>
                     <Grid x:ConnectionId='1' x:Name="section2"                           />
                 </DataTemplate>

@@ -9,7 +9,6 @@ App.xbf
 AtividadesPage.xbf
 ContraIndicacoesPage.xbf
 DengueApp.WindowsPhone.xr.xml
-FuncionalidadesSecundariasPage.xbf
 HomePage.xbf
 IndicacoesPage.xbf
 MainPage.xbf
@@ -17,7 +16,6 @@ OqeDenguePage.xbf
 OqFazerPage.xbf
 SintomasPage.xbf
 Styles e controles\StylesPersonalidados.xbf
-ImagensParaAsTelas\Aedes_sombra foto.png
 ImagensParaAsTelas\Dedonegado.png
 ImagensParaAsTelas\Dedopositivo.png
 ImagensParaAsTelas\IMAG_BONECO_APETITI.png
@@ -31,3 +29,4 @@ ImagensParaAsTelas\IMAG_BONECO_MAN.png
 ImagensParaAsTelas\IMAG_BONECO_OLHOS.png
 ImagensParaAsTelas\LampadaLigada.png
 ImagensParaAsTelas\molecule_sombra cor.png
+ImagensParaAsTelas\mosquito.png

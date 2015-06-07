@@ -17,7 +17,10 @@
             <ListView.ItemContainerStyle>
                 <Style TargetType="ListViewItem">
                     <Setter Property="HorizontalContentAlignment" Value="Stretch" />
-                    <Setter Property="Margin" Value="0, 5, 0, 5" />
+                    <Setter Property="Margin" Value="0, 2, 0, 2" />
+                    <Setter Property="Padding" Value="10, 3, 3, 3" />
+                    <Setter Property="Background" Value="#EEE" />
+                    <Setter Property="Foreground" Value="#333" />
                 </Style>
             </ListView.ItemContainerStyle>
 
@@ -26,7 +29,7 @@
 
                     <Grid>
 
-                        <StackPanel Background="Black" VerticalAlignment="Center">
+                        <StackPanel VerticalAlignment="Center">
                             <TextBlock FontSize="18" Text="{Binding Titulo}" />
                             
                             <StackPanel Name="spIformaçõesDatas" Orientation="Horizontal">

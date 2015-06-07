@@ -15,11 +15,11 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Children" />
-      <RootProperty Name="Background" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Background" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Height" />
-      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootEvent Name="Loaded" />
     </RootType>
@@ -39,18 +39,20 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem" />
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
       <RootProperty Name="HorizontalContentAlignment" />
-      <RootProperty Name="BorderThickness" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="FontSize" />
+      <RootProperty Name="Padding" />
       <RootProperty Name="Background" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="FontSize" />
       <RootProperty Name="BorderBrush" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.FrameworkElement">
       <RootProperty Name="Margin" />
       <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Setter">
       <RootProperty Name="Property" />
@@ -60,18 +62,16 @@
       <RootProperty Name="Template" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
-      <RootProperty Name="Background" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Children" />
       <RootProperty Name="Name" />
       <RootProperty Name="Orientation" />
+      <RootProperty Name="Resources" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootProperty Name="Margin" />
       <RootProperty Name="RenderTransformOrigin" />
-      <RootProperty Name="Resources" />
-      <RootProperty Name="RenderTransform" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
       <RootProperty Name="IsChecked" />
@@ -99,6 +99,7 @@
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="FontWeight" />
+      <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="DengueApp.AtividadesPage" />
     <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
@@ -130,22 +131,16 @@
       <RootProperty Name="FontFamily" />
     </RootType>
     <RootType FullName="DengueApp.ContraIndicacoesPage" />
-    <RootType FullName="DengueApp.FuncionalidadesSecundariasPage" />
-    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="Style" />
       <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="Style" />
       <RootProperty Name="Content" />
       <RootEvent Name="Click" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.UIElement">
-      <RootProperty Name="RenderTransformOrigin" />
-    </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
-    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.NullExtension" />
-    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform" />
     <RootType FullName="DengueApp.HomePage" />
     <RootType FullName="DengueApp.IndicacoesPage" />
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Hub">
       <RootProperty Name="Margin" />
       <RootProperty Name="Sections" />
@@ -159,6 +154,10 @@
     <RootType FullName="DengueApp.OqeDenguePage" />
     <RootType FullName="DengueApp.OqFazerPage" />
     <RootType FullName="DengueApp.SintomasPage" />
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.NullExtension" />
+    <RootType FullName="Windows.UI.Xaml.UIElement">
+      <RootProperty Name="RenderTransformOrigin" />
+    </RootType>
     <RootType FullName="DengueApp.Styles_e_controles.StylesPersonalidados" />
   </Roots.RootTypes>
 </Roots>
