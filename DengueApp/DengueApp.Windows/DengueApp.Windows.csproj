@@ -109,18 +109,33 @@
     <Compile Include="AtividadesPage.xaml.cs">
       <DependentUpon>AtividadesPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ContraIndicaPage.xaml.cs">
+      <DependentUpon>ContraIndicaPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="FuncionalidadesSecundariasPage.xaml.cs">
       <DependentUpon>FuncionalidadesSecundariasPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="IndicacoesPage.xaml.cs">
+      <DependentUpon>IndicacoesPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\AtividadesUtils.cs" />
     <Compile Include="Model\ItemListaAtividades.cs" />
+    <Compile Include="OqeDenguePage.xaml.cs">
+      <DependentUpon>OqeDenguePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OqueFazerPage.xaml.cs">
+      <DependentUpon>OqueFazerPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SintomasPage.xaml.cs">
+      <DependentUpon>SintomasPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -133,11 +148,27 @@
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="ImagensParaTelas\Aedes_sombra foto.png" />
+    <Content Include="ImagensParaTelas\Aedes_sombra.png" />
+    <Content Include="ImagensParaTelas\arrow1.png" />
+    <Content Include="ImagensParaTelas\IMAG_BONECO_APETITI.png" />
+    <Content Include="ImagensParaTelas\IMAG_BONECO_cabeça.png" />
+    <Content Include="ImagensParaTelas\IMAG_BONECO_corpo.png" />
+    <Content Include="ImagensParaTelas\IMAG_BONECO_DORBARI.png" />
+    <Content Include="ImagensParaTelas\IMAG_BONECO_FADIGA.png" />
+    <Content Include="ImagensParaTelas\IMAG_BONECO_FEBRE.png" />
+    <Content Include="ImagensParaTelas\IMAG_BONECO_HEMORR.png" />
+    <Content Include="ImagensParaTelas\IMAG_BONECO_MAN.png" />
+    <Content Include="ImagensParaTelas\IMAG_BONECO_OLHOS.png" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="AtividadesPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ContraIndicaPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="FuncionalidadesSecundariasPage.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -147,9 +178,25 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="IndicacoesPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="OqeDenguePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OqueFazerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SintomasPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">

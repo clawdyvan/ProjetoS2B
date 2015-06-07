@@ -89,11 +89,17 @@
     <Compile Include="AtividadesPage.xaml.cs">
       <DependentUpon>AtividadesPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ContraIndicacoesPage.xaml.cs">
+      <DependentUpon>ContraIndicacoesPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="FuncionalidadesSecundariasPage.xaml.cs">
       <DependentUpon>FuncionalidadesSecundariasPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="IndicacoesPage.xaml.cs">
+      <DependentUpon>IndicacoesPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -104,7 +110,13 @@
     <Compile Include="OqeDenguePage.xaml.cs">
       <DependentUpon>OqeDenguePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="OqFazerPage.xaml.cs">
+      <DependentUpon>OqFazerPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SintomasPage.xaml.cs">
+      <DependentUpon>SintomasPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Styles e controles\StylesPersonalidados.xaml.cs">
       <DependentUpon>StylesPersonalidados.xaml</DependentUpon>
     </Compile>
@@ -145,6 +157,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ContraIndicacoesPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="FuncionalidadesSecundariasPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -153,11 +169,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="IndicacoesPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="OqeDenguePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OqFazerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SintomasPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

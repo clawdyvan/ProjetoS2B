@@ -124,25 +124,35 @@ namespace DengueApp.DengueApp_WindowsPhone_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[8];
+            _typeNameTable = new string[13];
             _typeNameTable[0] = "DengueApp.AividadeDetalhesPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "DengueApp.AtividadesPage";
-            _typeNameTable[4] = "DengueApp.FuncionalidadesSecundariasPage";
-            _typeNameTable[5] = "DengueApp.HomePage";
-            _typeNameTable[6] = "DengueApp.MainPage";
-            _typeNameTable[7] = "DengueApp.Styles_e_controles.StylesPersonalidados";
+            _typeNameTable[4] = "DengueApp.ContraIndicacoesPage";
+            _typeNameTable[5] = "DengueApp.FuncionalidadesSecundariasPage";
+            _typeNameTable[6] = "DengueApp.HomePage";
+            _typeNameTable[7] = "DengueApp.IndicacoesPage";
+            _typeNameTable[8] = "DengueApp.MainPage";
+            _typeNameTable[9] = "DengueApp.OqeDenguePage";
+            _typeNameTable[10] = "DengueApp.OqFazerPage";
+            _typeNameTable[11] = "DengueApp.SintomasPage";
+            _typeNameTable[12] = "DengueApp.Styles_e_controles.StylesPersonalidados";
 
-            _typeTable = new global::System.Type[8];
+            _typeTable = new global::System.Type[13];
             _typeTable[0] = typeof(global::DengueApp.AividadeDetalhesPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::DengueApp.AtividadesPage);
-            _typeTable[4] = typeof(global::DengueApp.FuncionalidadesSecundariasPage);
-            _typeTable[5] = typeof(global::DengueApp.HomePage);
-            _typeTable[6] = typeof(global::DengueApp.MainPage);
-            _typeTable[7] = typeof(global::DengueApp.Styles_e_controles.StylesPersonalidados);
+            _typeTable[4] = typeof(global::DengueApp.ContraIndicacoesPage);
+            _typeTable[5] = typeof(global::DengueApp.FuncionalidadesSecundariasPage);
+            _typeTable[6] = typeof(global::DengueApp.HomePage);
+            _typeTable[7] = typeof(global::DengueApp.IndicacoesPage);
+            _typeTable[8] = typeof(global::DengueApp.MainPage);
+            _typeTable[9] = typeof(global::DengueApp.OqeDenguePage);
+            _typeTable[10] = typeof(global::DengueApp.OqFazerPage);
+            _typeTable[11] = typeof(global::DengueApp.SintomasPage);
+            _typeTable[12] = typeof(global::DengueApp.Styles_e_controles.StylesPersonalidados);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -179,10 +189,15 @@ namespace DengueApp.DengueApp_WindowsPhone_XamlTypeInfo
 
         private object Activate_0_AividadeDetalhesPage() { return new global::DengueApp.AividadeDetalhesPage(); }
         private object Activate_3_AtividadesPage() { return new global::DengueApp.AtividadesPage(); }
-        private object Activate_4_FuncionalidadesSecundariasPage() { return new global::DengueApp.FuncionalidadesSecundariasPage(); }
-        private object Activate_5_HomePage() { return new global::DengueApp.HomePage(); }
-        private object Activate_6_MainPage() { return new global::DengueApp.MainPage(); }
-        private object Activate_7_StylesPersonalidados() { return new global::DengueApp.Styles_e_controles.StylesPersonalidados(); }
+        private object Activate_4_ContraIndicacoesPage() { return new global::DengueApp.ContraIndicacoesPage(); }
+        private object Activate_5_FuncionalidadesSecundariasPage() { return new global::DengueApp.FuncionalidadesSecundariasPage(); }
+        private object Activate_6_HomePage() { return new global::DengueApp.HomePage(); }
+        private object Activate_7_IndicacoesPage() { return new global::DengueApp.IndicacoesPage(); }
+        private object Activate_8_MainPage() { return new global::DengueApp.MainPage(); }
+        private object Activate_9_OqeDenguePage() { return new global::DengueApp.OqeDenguePage(); }
+        private object Activate_10_OqFazerPage() { return new global::DengueApp.OqFazerPage(); }
+        private object Activate_11_SintomasPage() { return new global::DengueApp.SintomasPage(); }
+        private object Activate_12_StylesPersonalidados() { return new global::DengueApp.Styles_e_controles.StylesPersonalidados(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -216,30 +231,65 @@ namespace DengueApp.DengueApp_WindowsPhone_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 4:   //  DengueApp.FuncionalidadesSecundariasPage
+            case 4:   //  DengueApp.ContraIndicacoesPage
                 userType = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_FuncionalidadesSecundariasPage;
+                userType.Activator = Activate_4_ContraIndicacoesPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  DengueApp.HomePage
+            case 5:   //  DengueApp.FuncionalidadesSecundariasPage
                 userType = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_HomePage;
+                userType.Activator = Activate_5_FuncionalidadesSecundariasPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 6:   //  DengueApp.MainPage
+            case 6:   //  DengueApp.HomePage
                 userType = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_MainPage;
+                userType.Activator = Activate_6_HomePage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 7:   //  DengueApp.Styles_e_controles.StylesPersonalidados
+            case 7:   //  DengueApp.IndicacoesPage
                 userType = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_7_StylesPersonalidados;
+                userType.Activator = Activate_7_IndicacoesPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 8:   //  DengueApp.MainPage
+                userType = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_8_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 9:   //  DengueApp.OqeDenguePage
+                userType = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_9_OqeDenguePage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 10:   //  DengueApp.OqFazerPage
+                userType = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_10_OqFazerPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 11:   //  DengueApp.SintomasPage
+                userType = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_11_SintomasPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 12:   //  DengueApp.Styles_e_controles.StylesPersonalidados
+                userType = new global::DengueApp.DengueApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_12_StylesPersonalidados;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
