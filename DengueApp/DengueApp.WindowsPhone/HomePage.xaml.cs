@@ -20,6 +20,7 @@ namespace DengueApp
 
     public sealed partial class HomePage : Page, IQuantidadeListener 
     {
+
         public HomePage()
         {
             this.InitializeComponent();
