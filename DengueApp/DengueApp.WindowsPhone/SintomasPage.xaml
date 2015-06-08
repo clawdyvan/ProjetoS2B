@@ -12,13 +12,13 @@
         <TransitionCollection>
             <NavigationThemeTransition>
                 <NavigationThemeTransition.DefaultNavigationTransitionInfo>
-                    <SlideNavigationTransitionInfo/>
+                    <ContinuumNavigationTransitionInfo/>
                 </NavigationThemeTransition.DefaultNavigationTransitionInfo>
             </NavigationThemeTransition>
         </TransitionCollection>
     </Page.Transitions>
 
-    <Grid>
+    <Grid ContinuumNavigationTransitionInfo.IsEntranceElement="True">
         <Rectangle Fill="#ff1111" Height="159" Margin="37,27,37,0" VerticalAlignment="Top"/>
         <Image Source="ImagensParaAsTelas/molecule_sombra cor.png" Margin="58,27,61,526"/>
         <TextBlock FontFamily="Century Gothic" Foreground="Black" FontSize="20" HorizontalAlignment="Left" Height="48" Margin="37,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326">
