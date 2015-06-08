@@ -8,27 +8,13 @@
     mc:Ignorable="d"
     Background="White">
 
-
-    <Page.Transitions>
-        <TransitionCollection>
-            <NavigationThemeTransition>
-                <NavigationThemeTransition.DefaultNavigationTransitionInfo>
-                    <!--<SlideNavigationTransitionInfo/>-->
-                    <!--<CommonNavigationTransitionInfo />-->
-                    <ContinuumNavigationTransitionInfo/>
-                </NavigationThemeTransition.DefaultNavigationTransitionInfo>
-            </NavigationThemeTransition>
-        </TransitionCollection>
-    </Page.Transitions>
-
-
     <Grid>
         <Rectangle Fill="#0277BD" Height="159" Margin="37,27,37,0" VerticalAlignment="Top"/>
-        <Image Source="ImagensParaAsTelas/mosquito.png" Margin="125,96,-49,459" />
+        <Image Source="ImagensParaAsTelas/mosquito.png" Margin="44,75,75,498" />
         <TextBlock FontSize="31" FontFamily="Century Gothic"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="44,50,0,0" Height="41" Width="280">
         	<Run Text="O que é Dengue?"/>
         </TextBlock>
-        <TextBlock ContinuumNavigationTransitionInfo.IsEntranceElement="True" FontSize="16" FontFamily="Century Gothic" Foreground="Black" HorizontalAlignment="Left" Height="155" Margin="24,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="366" TextAlignment="Justify">
+        <TextBlock FontSize="16" FontFamily="Century Gothic" Foreground="Black" HorizontalAlignment="Left" Height="155" Margin="24,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="366" TextAlignment="Justify">
         	<Run Text="A dengue é uma doença causada por um vírus transmitida pela picada de um mosquito chamado "/>
            	<Span FontStyle="Italic" FontSize="14" FontFamily="Century Gothic">
         		<Run Text="Aedes Aegypti"/>
@@ -39,7 +25,7 @@
             </Span>     
             <Run Text=" é muito confundido com pernilongo porem apresenta características peculiares como:"/>
         </TextBlock>
-        <TextBlock ContinuumNavigationTransitionInfo.IsEntranceElement="True" FontFamily="Century Gothic" FontSize="18" Foreground="#0277BD" HorizontalAlignment="Left" Height="175" Margin="35,351,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="355" FontWeight="Bold">
+        <TextBlock FontFamily="Century Gothic" FontSize="18" Foreground="#0277BD" HorizontalAlignment="Left" Height="175" Margin="35,351,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="355" FontWeight="Bold">
         	<Run Text="#Possui listas brancas e pretas."/>
         	<LineBreak/>
         	<Run/>

@@ -24,7 +24,7 @@
 
     <Grid>
         <Rectangle Fill="#0277BD" Height="159" Margin="37,27,37,0" VerticalAlignment="Top"/>
-        <Image Source="ImagensParaAsTelas/mosquito.png" Margin="125,96,-49,459" />
+        <Image Source="ImagensParaAsTelas/mosquito.png" Margin="44,75,75,498" />
         <TextBlock FontSize="31" FontFamily="Century Gothic"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="44,50,0,0" Height="41" Width="280">
         	<Run Text="O que é Dengue?"/>
         </TextBlock>
