@@ -8,11 +8,22 @@
     mc:Ignorable="d"
     Background="White">
 
+    <Page.Transitions>
+        <TransitionCollection>
+            <NavigationThemeTransition>
+                <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                    <ContinuumNavigationTransitionInfo/>
+                </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+            </NavigationThemeTransition>
+        </TransitionCollection>
+    </Page.Transitions>
+
+
     <Grid>
 
         <Rectangle Fill="#ff1111" Height="159" Margin="37,27,37,0" VerticalAlignment="Top"/>
         <Image Source="ImagensParaAsTelas/Dedonegado.png" Margin="69,50,78,477" RenderTransformOrigin="0.497,-0.046"></Image>
-        <TextBlock Foreground="Black" FontFamily="Century Gothic" FontSize="20" Height="410" Margin="37,220,0,0" TextWrapping="Wrap" Width="353" VerticalAlignment="Top" HorizontalAlignment="Left">
+        <TextBlock ContinuumNavigationTransitionInfo.IsEntranceElement="True" Foreground="Black" FontFamily="Century Gothic" FontSize="20" Height="410" Margin="37,220,0,0" TextWrapping="Wrap" Width="353" VerticalAlignment="Top" HorizontalAlignment="Left">
         	<Span>
         		<Run Text="Se estiver com dengue ou suspeita "/>
         	</Span>

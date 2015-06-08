@@ -44,9 +44,9 @@ namespace DengueApp
 
             listItems = ProcessarDadosLista(new List<ItemListaAtividades>(listItems));
 
-            lvAtividades.ItemsSource = listItems;
+        //    lvAtividades.ItemsSource = listItems;
 
-            this.GravarEstadoDasAtividades(listItems);
+       //     this.GravarEstadoDasAtividades(listItems);
         }
 
         private void LvAtividades_ItemClick(object sender, ItemClickEventArgs e)
