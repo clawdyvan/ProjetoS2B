@@ -10,7 +10,7 @@
 
     <Grid>
         <Rectangle Fill="#ff1111" Height="159" Margin="37,27,37,0" VerticalAlignment="Top"/>
-        <Image Source="ImagensParaAsTelas/molecule_sombra cor.png" Margin="60,47,59,454"/>
+        <Image Source="ImagensParaAsTelas/molecule_sombra cor.png" Margin="58,27,61,526"/>
         <TextBlock FontFamily="Century Gothic" Foreground="Black" FontSize="20" HorizontalAlignment="Left" Height="48" Margin="37,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326">
         	<Run Text="Os sintomas da dengue são dois:"/>
         	<Run Foreground="#FFFE0000" FontSize="20" FontFamily="Century Gothic" Text="             Clássica "/>

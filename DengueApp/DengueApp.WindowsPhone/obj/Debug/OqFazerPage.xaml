@@ -10,7 +10,7 @@
 
     <Grid>
         <Rectangle Fill="#11ff29" Height="159" Margin="37,27,37,0" VerticalAlignment="Top"/>
-        <Image Source="ImagensParaAsTelas/LampadaLigada.png" Margin="83,45,72,479"/>
+        <Image Source="ImagensParaAsTelas/LampadaLigada.png" Margin="57,29,62,533"/>
         <TextBlock Foreground="Black" FontFamily="Century Gothic" FontSize="25" HorizontalAlignment="Left" Height="373" Margin="37,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326">
       		<Run Text="A dengue é uma doença que a sua cura não é tratando o vírus e sim seus sintomas. "/>
   	    	<LineBreak/>

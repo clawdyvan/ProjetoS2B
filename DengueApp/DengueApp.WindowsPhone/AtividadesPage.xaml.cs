@@ -63,22 +63,57 @@ namespace DengueApp
 
         public dynamic GetParametersForItemClick(int itemId)
         {
-
+                       
             switch (itemId)
             {
                 case 0:
                     return new {
                         Texto = "texto texto texto", // atenção, coloque o texto em um arquivo de resources, não cole um parágrafo inteiro aqui no código c#, pois fica feio! Veja mais informações em https://msdn.microsoft.com/en-us/library/windows/apps/ff637520%28v=vs.105%29.aspx ou no google!
-                        StrUriImagem = "ms-appx:///ImagensParaAsTelas/mosquito.png",
+                        StrUriImagem = "ms-appx:///ImagensParaAsTelas/CAIXA DA AGUA.png",
                         SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 17, 255, 41)) };
                 case 1:
                     return new
                     {
                         Texto = "texto2 texto2 texto2", // atenção, coloque o texto em um arquivo de resources, não cole um parágrafo inteiro aqui no código c#, pois fica feio! Veja mais informações em https://msdn.microsoft.com/en-us/library/windows/apps/ff637520%28v=vs.105%29.aspx ou no google!
-                        StrUriImagem = "ms-appx:///ImagensParaAsTelas/Dedopositivo.png",
+                        StrUriImagem = "ms-appx:///ImagensParaAsTelas/OLHAR AS CALHAS.png",
                         SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 17, 17, 41))
                     };
 
+               
+                case 2:
+                    return new
+                    {
+                        Texto = "texto3 texto3 texto2", // atenção, coloque o texto em um arquivo de resources, não cole um parágrafo inteiro aqui no código c#, pois fica feio! Veja mais informações em https://msdn.microsoft.com/en-us/library/windows/apps/ff637520%28v=vs.105%29.aspx ou no google!
+                        StrUriImagem = "ms-appx:///ImagensParaAsTelas/RESERVATORIO.png",
+                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 17, 27, 41))
+                    };
+
+                case 3:
+                    return new
+                    {
+                        Texto = "texto3 texto3 texto2", // atenção, coloque o texto em um arquivo de resources, não cole um parágrafo inteiro aqui no código c#, pois fica feio! Veja mais informações em https://msdn.microsoft.com/en-us/library/windows/apps/ff637520%28v=vs.105%29.aspx ou no google!
+                        StrUriImagem = "ms-appx:///ImagensParaAsTelas/CONFERIR BARRIS.png",
+                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 17, 27, 41))
+                    };
+
+                case 4:
+                    return new
+                    {
+                        Texto = "texto3 texto3 texto2", // atenção, coloque o texto em um arquivo de resources, não cole um parágrafo inteiro aqui no código c#, pois fica feio! Veja mais informações em https://msdn.microsoft.com/en-us/library/windows/apps/ff637520%28v=vs.105%29.aspx ou no google!
+                        StrUriImagem = "ms-appx:///ImagensParaAsTelas/PRATINHO DE PLANTAS.png",
+                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 17, 27, 41))
+                    };
+
+                case 5:
+                    return new
+                    {
+                        Texto = "texto3 texto3 texto2", // atenção, coloque o texto em um arquivo de resources, não cole um parágrafo inteiro aqui no código c#, pois fica feio! Veja mais informações em https://msdn.microsoft.com/en-us/library/windows/apps/ff637520%28v=vs.105%29.aspx ou no google!
+                        StrUriImagem = "ms-appx:///ImagensParaAsTelas/VASO AGUATICO.png",
+                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 17, 27, 41))
+                    };
+
+
+               
                 default:
                     return null;
             }

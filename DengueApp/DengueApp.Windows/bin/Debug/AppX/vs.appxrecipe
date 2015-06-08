@@ -8,7 +8,7 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>38e6d328-da52-46a4-878a-d490a0e2e8a1</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>B1AFE1F8E388B8BAFEE60F57DAE4A5709BED23C95B0E5DB3688BB6A64AA03EC0</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>150C416971A76D1231AB27C97079A781051AD1EA2B3AE2D34542AD7F0D05E719</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>38e6d328-da52-46a4-878a-d490a0e2e8a1_1.0.0.0_neutral__aft5c8g3mpf2e</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>38e6d328-da52-46a4-878a-d490a0e2e8a1_aft5c8g3mpf2e!App</RegisteredUserModeAppID>
     <RegisteredPackageID>38e6d328-da52-46a4-878a-d490a0e2e8a1</RegisteredPackageID>
@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-06-06T22:22:35.112</Modified>
+      <Modified>2015-06-07T22:19:14.951</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\DengueApp.Windows.exe">
       <PackagePath>DengueApp.Windows.exe</PackagePath>
-      <Modified>2015-06-06T22:22:34.209</Modified>
+      <Modified>2015-06-07T22:24:06.410</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -106,7 +106,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\ContraIndicaPage.xbf">
       <PackagePath>ContraIndicaPage.xbf</PackagePath>
-      <Modified>2015-06-06T22:22:33.483</Modified>
+      <Modified>2015-06-07T22:24:05.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\FuncionalidadesSecundariasPage.xbf">
       <PackagePath>FuncionalidadesSecundariasPage.xbf</PackagePath>
@@ -118,7 +118,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\IndicacoesPage.xbf">
       <PackagePath>IndicacoesPage.xbf</PackagePath>
-      <Modified>2015-06-06T22:22:33.484</Modified>
+      <Modified>2015-06-07T22:24:05.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
@@ -126,23 +126,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\OqeDenguePage.xbf">
       <PackagePath>OqeDenguePage.xbf</PackagePath>
-      <Modified>2015-06-06T22:22:33.484</Modified>
+      <Modified>2015-06-07T22:24:05.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\OqueFazerPage.xbf">
       <PackagePath>OqueFazerPage.xbf</PackagePath>
-      <Modified>2015-06-06T22:22:33.484</Modified>
+      <Modified>2015-06-07T22:24:05.633</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\SintomasPage.xbf">
       <PackagePath>SintomasPage.xbf</PackagePath>
-      <Modified>2015-06-06T22:22:33.484</Modified>
+      <Modified>2015-06-07T22:24:05.633</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\DengueApp.Windows.xr.xml">
       <PackagePath>DengueApp.Windows.xr.xml</PackagePath>
-      <Modified>2015-06-06T22:22:33.362</Modified>
+      <Modified>2015-06-07T22:24:05.503</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-06-06T22:22:34.691</Modified>
+      <Modified>2015-06-07T22:24:07.106</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
