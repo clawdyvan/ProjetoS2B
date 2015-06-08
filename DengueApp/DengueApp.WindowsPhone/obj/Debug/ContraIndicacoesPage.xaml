@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="DengueApp.ContraIndicacoesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DengueApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="White">
+
+    <Grid>
+
+        <Rectangle Fill="#ff1111" Height="159" Margin="37,27,37,0" VerticalAlignment="Top"/>
+        <Image Source="ImagensParaAsTelas/Dedonegado.png" Margin="69,50,78,477" RenderTransformOrigin="0.497,-0.046"></Image>
+        <TextBlock Foreground="Black" FontFamily="Century Gothic" FontSize="20" Height="410" Margin="37,220,0,0" TextWrapping="Wrap" Width="353" VerticalAlignment="Top" HorizontalAlignment="Left">
+        	<Span>
+        		<Run Text="Se estiver com dengue ou suspeita "/>
+        	</Span>
+        	<Span Foreground="Red">
+        		<Run Text="não é recomendado: "/>
+            </Span>
+         	<LineBreak/>
+        	<LineBreak/>
+        	<Run Text="Bebidas com cafeína (café, chá preto)"/>
+        	<LineBreak/>
+        	<LineBreak/>
+        	<Run Text="Tomar remédios que contenha ácido acetilsalicílico "/>
+        	<LineBreak/>
+        	<Run Text="(Exemplos:AAS®,Aspirina®,Melhoral®...)"/>
+        	<LineBreak/>
+        	<LineBreak/>
+        	<Run Text="Tomar remédios antinflamatórios "/>
+           	<LineBreak/>
+       		<Run Text="(Exemplos: Voltaren®, Profenid ® ...)"/>
+         	<LineBreak/>
+        	<LineBreak/>
+      		<Run Text="Tomar remédios que contém dipirona "/>
+         	<LineBreak/>
+       		<Run Text="(Exemplos: Novalgina®, Dorflex®, Anador® ...)"/>
+        </TextBlock>
+    </Grid>
+</Page>
+

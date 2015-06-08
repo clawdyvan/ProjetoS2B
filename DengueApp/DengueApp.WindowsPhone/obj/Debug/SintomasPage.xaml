@@ -1,0 +1,62 @@
+﻿<Page
+    x:Class="DengueApp.SintomasPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DengueApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="White">
+
+    <Page.Transitions>
+        <TransitionCollection>
+            <NavigationThemeTransition>
+                <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                    <SlideNavigationTransitionInfo/>
+                </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+            </NavigationThemeTransition>
+        </TransitionCollection>
+    </Page.Transitions>
+
+    <Grid>
+        <Rectangle Fill="#ff1111" Height="159" Margin="37,27,37,0" VerticalAlignment="Top"/>
+        <Image Source="ImagensParaAsTelas/molecule_sombra cor.png" Margin="60,47,59,454"/>
+        <TextBlock FontFamily="Century Gothic" Foreground="Black" FontSize="20" HorizontalAlignment="Left" Height="48" Margin="37,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326">
+        	<Run Text="Os sintomas da dengue são dois:"/>
+        	<Run Foreground="#FFFE0000" FontSize="20" FontFamily="Century Gothic" Text="             Clássica "/>
+        	<Run Foreground="Black" FontFamily="Century Gothic" FontSize="16" Text="e"/>
+        	<Run Foreground="#FFB71C1C" FontSize="20" FontFamily="Century Gothic" Text=" Hemorrágica."/>
+        </TextBlock>
+        <ListView Margin="12,264,10,10" FontFamily="Center Gothic" FontSize="19" BorderThickness="4.5" RenderTransformOrigin="0.52,0.516" >
+            <TextBlock FontSize="16" Height="48" FontFamily="Century Gothic" Foreground="Red" FontWeight="Black" TextWrapping="Wrap" Text="Clássica" Width="368"/>
+            <TextBlock FontSize="18" Foreground="Black" Height="46" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Inicio da febre repentino " Width="243" RenderTransformOrigin="0.679,0.532" Margin="119,-9,0,0" />
+            <Image Source="ImagensParaAsTelas/IMAG_BONECO_FEBRE.png" Height="82" Width="102" Margin="0,-64,0,10"/>
+            <TextBlock FontSize="18" Foreground="Black" Height="46" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Dor excessiva na cabeça" Width="243" RenderTransformOrigin="0.679,0.532" Margin="119,-9,0,0" />
+            <Image Source="ImagensParaAsTelas/IMAG_BONECO_cabeça.png" Height="82" Width="102" Margin="0,-64,0,10"/>
+            <TextBlock FontSize="18" Foreground="Black" Height="46" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Dor muscular intensa e dor nas articulações." Width="243" RenderTransformOrigin="0.679,0.532" Margin="119,-9,0,0" />
+            <Image Source="ImagensParaAsTelas/IMAG_BONECO_corpo.png" Height="82" Width="102" Margin="0,-64,0,10"/>
+            <TextBlock FontSize="18" Foreground="Black" Height="46" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Enfraquecimento físico e psíquico." Width="243" RenderTransformOrigin="0.679,0.532" Margin="119,-9,0,0" />
+            <Image Source="ImagensParaAsTelas/IMAG_BONECO_FADIGA.png" Height="82" Width="102" Margin="0,-64,0,10"/>
+            <TextBlock FontSize="18" Foreground="Black" Height="46" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Falta de apetite" Width="243" RenderTransformOrigin="0.679,0.532" Margin="119,-9,0,0" />
+            <Image Source="ImagensParaAsTelas/IMAG_BONECO_APETITI.png" Height="82" Width="102" Margin="0,-64,0,10"/>
+            <TextBlock FontSize="18" Foreground="Black" Height="46" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Manchas na pele e coceira." Width="243" RenderTransformOrigin="0.679,0.532" Margin="119,-9,0,0" />
+            <Image Source="ImagensParaAsTelas/IMAG_BONECO_MAN.png" Height="82" Width="102" Margin="0,-64,0,10"/>
+            <TextBlock FontSize="16" Height="48" FontFamily="Century Gothic" Foreground="#FFB71C1C" FontWeight="Black" TextWrapping="Wrap" Text="Hemorrágica" Width="368"/>
+            <TextBlock FontSize="16" Height="48" FontFamily="Century Gothic" Foreground="Black" FontWeight="Black" TextWrapping="Wrap" Text="Os sintomas iniciais será a mesma da DC, mas no 3 ou no 4 dia poderá haver complicações como:" Width="368"/>
+            <TextBlock FontSize="18" Foreground="Black" Height="39" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Muita dor abdominal" Width="243" RenderTransformOrigin="0.679,0.532" Margin="119,9,0,0" />
+            <Image Source="ImagensParaAsTelas/IMAG_BONECO_DORBARI.png" Height="82" Width="102" Margin="0,-44,0,10"/>
+            <TextBlock FontSize="18" Foreground="Black" Height="46" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Manifestações hemorrágica espontânea (nariz e gengivas)" Width="243" RenderTransformOrigin="0.679,0.532" Margin="119,9,0,0" />
+            <Image Source="ImagensParaAsTelas/IMAG_BONECO_HEMORR.png" Height="82" Width="102" Margin="0,-44,0,10"/>
+            <LineBreak/>
+            <TextBlock FontSize="18" Foreground="Black" Height="39" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Debilidade profunda" Width="243" RenderTransformOrigin="0.679,0.532" Margin="66,-43,0,0" />
+            <TextBlock FontSize="18" Foreground="Black" Height="39" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Agitação ou letargia" Width="243" RenderTransformOrigin="0.679,0.532" Margin="66,-6,0,0" />
+            <TextBlock FontSize="18" Foreground="Black" Height="39" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Palidez no rosto" Width="243" RenderTransformOrigin="0.679,0.532" Margin="66,33,0,0" />
+            <TextBlock FontSize="18" Foreground="Black" Height="39" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Pulso rápido e fraco" Width="243" RenderTransformOrigin="0.679,0.532" Margin="66,48,0,0" />
+            <TextBlock FontSize="18" Foreground="Black" Height="46" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Diminuição significativo da temperatura corporal" Width="243" RenderTransformOrigin="0.679,0.532" Margin="66,54,0,0" />
+            
+
+        </ListView>
+
+    </Grid>
+</Page>
+
