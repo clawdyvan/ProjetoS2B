@@ -1,0 +1,45 @@
+﻿<Page
+    x:Class="DengueApp.OqeDenguePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DengueApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="White">
+        <Button Background="#F44336" Foreground="White" BorderBrush="White"  HorizontalAlignment="Left" Height="89" Margin="10,40,0,0" VerticalAlignment="Top" Width="153"/>
+        <Image Source="ImagensParaTelas/arrow1.png" Margin="34,63,1246,659" />
+        <Rectangle Fill="#008aaf" HorizontalAlignment="Left" Height="44" Margin="625,233,0,0" Stroke="#008aaf" VerticalAlignment="Top" Width="741"/>
+        <Rectangle Fill="#008aaf" HorizontalAlignment="Left" Height="17" Margin="0,260,0,0" Stroke="#008aaf" VerticalAlignment="Top" Width="638"/>
+        <TextBlock Foreground="#E57373" FontFamily="Century Gothic" FontSize="39" HorizontalAlignment="Left" Height="55" Margin="28,222,0,0" TextWrapping="Wrap" Text="O que é Dengue?" VerticalAlignment="Top" Width="610"/>
+        <Image Source="ImagensParaTelas/Aedes_Sombra.png" Margin="944,583,-32,-17" Opacity="0.58" />
+        <ListView  HorizontalAlignment="Left" Height="476" Margin="625,282,0,0" VerticalAlignment="Top" Width="731">
+            <TextBlock FontFamily="Century Gothic" FontSize="27" Foreground="Black" Height="220" TextWrapping="Wrap" Width="725">
+                <Run Text="A dengue é uma doença causada por um vírus transmitida pela picada de um mosquito chamado "/>
+           	<Span FontStyle="Italic" FontSize="27" FontFamily="Century Gothic">
+        		<Run Text="Aedes Aegypti"/>
+        	</Span>
+            <Run Text=", seus sintomas surgem de 4 a 7 dias depois de picado pelo transmissor. O " />
+            <Span FontStyle="Italic" FontSize="27" FontFamily="Century Gothic">
+               <Run Text="Aedes"/>
+            </Span>     
+            <Run Text=" é muito confundido com pernilongo porem apresenta características peculiares como:"/>
+            </TextBlock>
+            <TextBlock FontFamily="Century Gothic" FontSize="27" Foreground="#0277BD" HorizontalAlignment="Left" Height="270"  TextWrapping="Wrap" VerticalAlignment="Top" Width="717" FontWeight="Bold">
+        	<Run Text="#Possui listas brancas e pretas."/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="#Costuma picar de manhazinha e o fim da tarde, principalmente nas pernas, tornozelos ou pés."/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="#Mede cerca de 0,5 mm."/>
+            </TextBlock>
+        </ListView>
+        <Image Source="ImagensParaTelas/Aedes_sombra foto.png" Margin="10,299,759,0" />
+
+    </Grid>
+</Page>
+
