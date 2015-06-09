@@ -71,6 +71,9 @@
     <AppxPackagedFile Include="C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\ImagensParaTelas\IMAG_BONECO_OLHOS.png">
       <PackagePath>ImagensParaTelas\IMAG_BONECO_OLHOS.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\ImagensParaTelas\mosquito.png">
+      <PackagePath>ImagensParaTelas\mosquito.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
