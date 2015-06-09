@@ -10,11 +10,11 @@
     <Grid Background="White">
         <Button Background="#F44336" Foreground="White" BorderBrush="White"  HorizontalAlignment="Left" Height="89" Margin="10,40,0,0" VerticalAlignment="Top" Width="153"/>
         <Image Source="ImagensParaTelas/arrow1.png" Margin="34,63,1246,659" />
-        <Rectangle Fill="#F44336" HorizontalAlignment="Left" Height="44" Margin="625,233,0,0" Stroke="#008aaf" VerticalAlignment="Top" Width="741"/>
-        <Rectangle Fill="#F44336" HorizontalAlignment="Left" Height="17" Margin="0,260,0,0" Stroke="#008aaf" VerticalAlignment="Top" Width="638"/>
+        <Rectangle Fill="#F44336" HorizontalAlignment="Left" Height="44" Margin="625,233,0,0" Stroke="#F44336" VerticalAlignment="Top" Width="741"/>
+        <Rectangle Fill="#F44336" HorizontalAlignment="Left" Height="17" Margin="0,260,0,0" Stroke="#F44336" VerticalAlignment="Top" Width="638"/>
         <TextBlock Foreground="#E57373" FontFamily="Century Gothic" FontSize="39" HorizontalAlignment="Left" Height="55" Margin="28,222,0,0" TextWrapping="Wrap" Text="Contraindicações" VerticalAlignment="Top" Width="610"/>
-        <ListBox Margin="10,282,25,10">
-            <TextBlock SelectionHighlightColor="Transparent" Foreground="Black" FontFamily="Century Gothic" FontSize="33" Height="462" Margin="0,0,0,0" TextWrapping="Wrap" Width="1316" VerticalAlignment="Top" HorizontalAlignment="Left">
+        
+            <TextBlock SelectionHighlightColor="Transparent" Foreground="Black" FontFamily="Century Gothic" FontSize="33" Height="462" Margin="13,282,0,0" TextWrapping="Wrap" Width="1316" VerticalAlignment="Top" HorizontalAlignment="Left">
         	<Span>
         		<Run Text="Se estiver com dengue ou suspeita "/>
         	</Span>
@@ -31,15 +31,8 @@
         	<Run Text="(Exemplos:AAS®,Aspirina®,Melhoral®...)"/>
         	<LineBreak/>
         	<LineBreak/>
-        	<Run Text="Tomar remédios antinflamatórios "/>
-           	<LineBreak/>
-       		<Run Text="(Exemplos: Voltaren®, Profenid ® ...)"/>
-         	<LineBreak/>
-        	<LineBreak/>
-      		<Run Text="Tomar remédios que contém dipirona "/>
-         	<LineBreak/>
-       		<Run Text="(Exemplos: Novalgina®, Dorflex®, Anador® ...)"/>
+        	
             </TextBlock>
-            </ListBox>
+            
     </Grid>
 </Page>

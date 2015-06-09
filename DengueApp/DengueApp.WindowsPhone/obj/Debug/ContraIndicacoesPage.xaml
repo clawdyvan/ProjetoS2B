@@ -29,15 +29,7 @@
         	<Run Text="(Exemplos:AAS®,Aspirina®,Melhoral®...)"/>
         	<LineBreak/>
         	<LineBreak/>
-        	<Run Text="Tomar remédios antinflamatórios "/>
-           	<LineBreak/>
-       		<Run Text="(Exemplos: Voltaren®, Profenid ® ...)"/>
-         	<LineBreak/>
-        	<LineBreak/>
-      		<Run Text="Tomar remédios que contém dipirona "/>
-         	<LineBreak/>
-       		<Run Text="(Exemplos: Novalgina®, Dorflex®, Anador® ...)"/>
-        </TextBlock>
+         </TextBlock>
     </Grid>
 </Page>
 

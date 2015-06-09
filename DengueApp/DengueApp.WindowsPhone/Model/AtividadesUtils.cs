@@ -27,18 +27,26 @@ namespace DengueApp.Model
                 Titulo = "Conferir caixa d’água",
                 DiasDeValidade = 30
             });
+            
+            
+            
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 1,
                 Titulo = "Conferir calhas",
                 DiasDeValidade = 15
             });
+            
+            
+            
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 2,
                 Titulo = "Conferir reservatórios d’água",
                 DiasDeValidade = 14
             });
+            
+            
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 3,
@@ -46,13 +54,16 @@ namespace DengueApp.Model
                 DiasDeValidade = 15
             });
 
+
+            
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 4,
                 Titulo = "Conferir vasos de plantas",
                 DiasDeValidade = 5
             });
-
+            
+            
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 5,
@@ -60,6 +71,7 @@ namespace DengueApp.Model
                 DiasDeValidade = 2
             });
 
+            
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 6,
@@ -67,6 +79,8 @@ namespace DengueApp.Model
                 DiasDeValidade = 10
             });
 
+            
+            
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 7,
@@ -74,6 +88,8 @@ namespace DengueApp.Model
                 DiasDeValidade = 2
             });
 
+            
+            
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 8,
