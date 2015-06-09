@@ -152,9 +152,7 @@
     <Content Include="ImagensParaAsTelas\LampadaLigada.png" />
     <Content Include="ImagensParaAsTelas\LIXO.PNG" />
     <Content Include="ImagensParaAsTelas\molecule_sombra cor.png" />
-    <Content Include="E:\APP FINAL\IMAGENS PARA O APP\mosquito.png">
-      <Link>ImagensParaAsTelas\mosquito.png</Link>
-    </Content>
+    <Content Include="ImagensParaAsTelas\mosquito.png" />
     <Content Include="ImagensParaAsTelas\OLHAR AS CALHAS.PNG" />
     <Content Include="ImagensParaAsTelas\PRATINHO DE PLANTAS.PNG" />
     <Content Include="ImagensParaAsTelas\RESERVATORIO.PNG" />

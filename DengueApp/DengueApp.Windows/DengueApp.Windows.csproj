@@ -160,6 +160,7 @@
     <Content Include="ImagensParaTelas\IMAG_BONECO_HEMORR.png" />
     <Content Include="ImagensParaTelas\IMAG_BONECO_MAN.png" />
     <Content Include="ImagensParaTelas\IMAG_BONECO_OLHOS.png" />
+    <Content Include="ImagensParaTelas\mosquito.png" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="AtividadesPage.xaml">
