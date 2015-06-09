@@ -8,10 +8,21 @@
     mc:Ignorable="d"
     Background="White">
 
+    <Page.Transitions>
+        <TransitionCollection>
+            <NavigationThemeTransition>
+                <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                    <ContinuumNavigationTransitionInfo/>
+                </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+            </NavigationThemeTransition>
+        </TransitionCollection>
+    </Page.Transitions>
+
+
     <Grid>
         <Rectangle Fill="#11ff29" Height="159" Margin="37,27,37,0" VerticalAlignment="Top"/>
-        <Image Source="ImagensParaAsTelas/Dedopositivo.png" Margin="81,46,69,483"/>
-        <TextBlock Foreground="Black" FontFamily="Century Gothic" FontSize="22" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.553,2.35" Margin="37,220,0,0" Height="398" Width="326" SelectionChanged="TextBlock_SelectionChanged">
+        <Image Source="ImagensParaAsTelas/Dedopositivo.png" Margin="57,29,62,533"/>
+        <TextBlock ContinuumNavigationTransitionInfo.IsEntranceElement="True" Foreground="Black" FontFamily="Century Gothic" FontSize="22" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.553,2.35" Margin="37,220,0,0" Height="398" Width="326" SelectionChanged="TextBlock_SelectionChanged">
     		<Run Text="Se estiver com dengue ou suspeita "/>
          	<Span Foreground="#11ff29" FontWeight="Bold">
         		<Run Text="é recomendado:"/>

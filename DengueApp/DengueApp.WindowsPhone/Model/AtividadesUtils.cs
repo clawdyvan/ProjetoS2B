@@ -24,29 +24,64 @@ namespace DengueApp.Model
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 0,
-                Titulo = "Lavar pratinho da planta",
-                DiasDeValidade = 1
+                Titulo = "Conferir caixa d’água",
+                DiasDeValidade = 30
             });
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 1,
-                Titulo = "Olhar atrás da geladeira",
-                DiasDeValidade = 2
+                Titulo = "Conferir calhas",
+                DiasDeValidade = 15
             });
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 2,
-                Titulo = "Limpar calhas",
-                DiasDeValidade = 1
+                Titulo = "Conferir reservatórios d’água",
+                DiasDeValidade = 14
             });
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 3,
-                Titulo = "Verificar o quintal",
-                DiasDeValidade = 4
+                Titulo = "Conferir bandeja do ar-condicionado",
+                DiasDeValidade = 15
             });
 
-            return listaAtividades;
+            listaAtividades.Add(new ItemListaAtividades
+            {
+                Id = 4,
+                Titulo = "Conferir vasos de plantas",
+                DiasDeValidade = 5
+            });
+
+            listaAtividades.Add(new ItemListaAtividades
+            {
+                Id = 5,
+                Titulo = "Conferir aquário",
+                DiasDeValidade = 2
+            });
+
+            listaAtividades.Add(new ItemListaAtividades
+            {
+                Id = 6,
+                Titulo = "Conferir materiais variados",
+                DiasDeValidade = 10
+            });
+
+            listaAtividades.Add(new ItemListaAtividades
+            {
+                Id = 7,
+                Titulo = "Conferir bebedouros de animais.",
+                DiasDeValidade = 2
+            });
+
+            listaAtividades.Add(new ItemListaAtividades
+            {
+                Id = 8,
+                Titulo = "Conferir lixo",
+                DiasDeValidade = 2
+            });
+
+           return listaAtividades;
         }
 
         private static StorageFolder ObterPastaLocalDoAplicativo()

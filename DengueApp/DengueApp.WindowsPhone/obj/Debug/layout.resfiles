@@ -1,3 +1,5 @@
+Assets\Logo.scale-100.png
+Assets\Logo.scale-140.png
 Assets\Logo.scale-240.png
 Assets\SmallLogo.scale-240.png
 Assets\SplashScreen.scale-240.png
@@ -16,8 +18,16 @@ OqeDenguePage.xbf
 OqFazerPage.xbf
 SintomasPage.xbf
 Styles e controles\StylesPersonalidados.xbf
+ImagensParaAsTelas\AQUAR.png
+ImagensParaAsTelas\ARCONDI.PNG
+ImagensParaAsTelas\BORRACHA.PNG
+ImagensParaAsTelas\CAIXA DA AGUA.PNG
+ImagensParaAsTelas\CONFERIR BARRIS.PNG
+ImagensParaAsTelas\CONFIRIR LAJE.PNG
 ImagensParaAsTelas\Dedonegado.png
 ImagensParaAsTelas\Dedopositivo.png
+ImagensParaAsTelas\DOG.PNG
+ImagensParaAsTelas\GUARRAFAS.PNG
 ImagensParaAsTelas\IMAG_BONECO_APETITI.png
 ImagensParaAsTelas\IMAG_BONECO_cabeça.png
 ImagensParaAsTelas\IMAG_BONECO_corpo.png
@@ -28,5 +38,10 @@ ImagensParaAsTelas\IMAG_BONECO_HEMORR.png
 ImagensParaAsTelas\IMAG_BONECO_MAN.png
 ImagensParaAsTelas\IMAG_BONECO_OLHOS.png
 ImagensParaAsTelas\LampadaLigada.png
+ImagensParaAsTelas\LIXO.PNG
 ImagensParaAsTelas\molecule_sombra cor.png
+ImagensParaAsTelas\OLHAR AS CALHAS.PNG
+ImagensParaAsTelas\PRATINHO DE PLANTAS.PNG
+ImagensParaAsTelas\RESERVATORIO.PNG
+ImagensParaAsTelas\VASO AGUATICO.PNG
 ImagensParaAsTelas\mosquito.png
