@@ -25,25 +25,25 @@ namespace DengueApp.Model
             {
                 Id = 0,
                 Titulo = "Conferir caixa d’água",
-                DiasDeValidade = 1
+                DiasDeValidade = 30
             });
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 1,
                 Titulo = "Conferir calhas",
-                DiasDeValidade = 2
+                DiasDeValidade = 15
             });
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 2,
                 Titulo = "Conferir reservatórios d’água",
-                DiasDeValidade = 1
+                DiasDeValidade = 14
             });
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 3,
-                Titulo = "Conferir tonéis, barris e galões d’agua",
-                DiasDeValidade = 4
+                Titulo = "Conferir bandeja do ar-condicionado",
+                DiasDeValidade = 15
             });
 
             listaAtividades.Add(new ItemListaAtividades
@@ -56,40 +56,32 @@ namespace DengueApp.Model
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 5,
-                Titulo = "Conferir vasos de plantas aquáticas",
-                DiasDeValidade = 6
+                Titulo = "Conferir aquário",
+                DiasDeValidade = 2
             });
 
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 6,
-                Titulo = "Conferir materiais variados, como garrafas",
-                DiasDeValidade = 7
+                Titulo = "Conferir materiais variados",
+                DiasDeValidade = 10
             });
 
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 7,
-                Titulo = "Conferir pneus velhos",
-                DiasDeValidade = 8
+                Titulo = "Conferir bebedouros de animais.",
+                DiasDeValidade = 2
             });
 
             listaAtividades.Add(new ItemListaAtividades
             {
                 Id = 8,
                 Titulo = "Conferir lixo",
-                DiasDeValidade = 5
+                DiasDeValidade = 2
             });
 
-            listaAtividades.Add(new ItemListaAtividades
-            {
-                Id = 9,
-                Titulo = "Conferir bandeja do ar-condicionado",
-                DiasDeValidade = 4
-            });
-
-            
-            return listaAtividades;
+           return listaAtividades;
         }
 
         private static StorageFolder ObterPastaLocalDoAplicativo()

@@ -1,1 +1,1 @@
-C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\DengueApp.WindowsPhone.csproj;neutral
+C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\DengueApp.WindowsPhone.csproj;neutral

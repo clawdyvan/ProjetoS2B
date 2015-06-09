@@ -16,7 +16,4 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <PRIResource Include="$(MSBuildThisFileDirectory)TextosResources.resw" />
-  </ItemGroup>
 </Project>

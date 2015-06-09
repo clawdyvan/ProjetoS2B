@@ -59,6 +59,7 @@ namespace DengueApp
             var parametros = GetParametersForItemClick(item.Id);
 
             frame.Navigate(typeof(AividadeDetalhesPage), parametros);
+                          
         }
 
         public dynamic GetParametersForItemClick(int itemId)
@@ -67,53 +68,82 @@ namespace DengueApp
             switch (itemId)
             {
                 case 0:
-                    return new {
-                        Texto = "texto texto texto", // atenção, coloque o texto em um arquivo de resources, não cole um parágrafo inteiro aqui no código c#, pois fica feio! Veja mais informações em https://msdn.microsoft.com/en-us/library/windows/apps/ff637520%28v=vs.105%29.aspx ou no google!
+                    return new 
+                    { 
+                        Texto = Textos.text0, 
                         StrUriImagem = "ms-appx:///ImagensParaAsTelas/CAIXA DA AGUA.png",
-                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 17, 255, 41)) };
+                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 67, 197, 155))
+                    };
                 case 1:
                     return new
                     {
-                        Texto = "texto2 texto2 texto2", // atenção, coloque o texto em um arquivo de resources, não cole um parágrafo inteiro aqui no código c#, pois fica feio! Veja mais informações em https://msdn.microsoft.com/en-us/library/windows/apps/ff637520%28v=vs.105%29.aspx ou no google!
+                        Texto = Textos.text1,
                         StrUriImagem = "ms-appx:///ImagensParaAsTelas/OLHAR AS CALHAS.png",
-                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 17, 17, 41))
+                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 249, 143, 107))
                     };
 
                
                 case 2:
                     return new
                     {
-                        Texto = "texto3 texto3 texto2", // atenção, coloque o texto em um arquivo de resources, não cole um parágrafo inteiro aqui no código c#, pois fica feio! Veja mais informações em https://msdn.microsoft.com/en-us/library/windows/apps/ff637520%28v=vs.105%29.aspx ou no google!
+                        Texto = Textos.text2,
                         StrUriImagem = "ms-appx:///ImagensParaAsTelas/RESERVATORIO.png",
-                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 17, 27, 41))
+                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 184, 77, 212))
                     };
 
                 case 3:
                     return new
                     {
-                        Texto = "texto3 texto3 texto2", // atenção, coloque o texto em um arquivo de resources, não cole um parágrafo inteiro aqui no código c#, pois fica feio! Veja mais informações em https://msdn.microsoft.com/en-us/library/windows/apps/ff637520%28v=vs.105%29.aspx ou no google!
-                        StrUriImagem = "ms-appx:///ImagensParaAsTelas/CONFERIR BARRIS.png",
-                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 17, 27, 41))
+                        Texto = Textos.text3,
+                        StrUriImagem = "ms-appx:///ImagensParaAsTelas/ARCONDI.png",
+                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 48, 75, 122))
                     };
 
                 case 4:
                     return new
                     {
-                        Texto = "texto3 texto3 texto2", // atenção, coloque o texto em um arquivo de resources, não cole um parágrafo inteiro aqui no código c#, pois fica feio! Veja mais informações em https://msdn.microsoft.com/en-us/library/windows/apps/ff637520%28v=vs.105%29.aspx ou no google!
+                        
+                        Texto = Textos.text4,
                         StrUriImagem = "ms-appx:///ImagensParaAsTelas/PRATINHO DE PLANTAS.png",
-                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 17, 27, 41))
+                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 238, 61, 61))
                     };
 
                 case 5:
                     return new
                     {
-                        Texto = "texto3 texto3 texto2", // atenção, coloque o texto em um arquivo de resources, não cole um parágrafo inteiro aqui no código c#, pois fica feio! Veja mais informações em https://msdn.microsoft.com/en-us/library/windows/apps/ff637520%28v=vs.105%29.aspx ou no google!
-                        StrUriImagem = "ms-appx:///ImagensParaAsTelas/VASO AGUATICO.png",
-                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 17, 27, 41))
+                        Texto = Textos.text5,
+                        StrUriImagem = "ms-appx:///ImagensParaAsTelas/AQUAR.png",
+                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 96, 151, 245))
+                    };
+
+                
+                case 6:
+                    return new
+                    {
+                        Texto = Textos.text6,
+                        StrUriImagem = "ms-appx:///ImagensParaAsTelas/GUARRAFAS.png",
+                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 210, 157, 64))
                     };
 
 
-               
+                case 7:
+                    return new
+                    {
+                        Texto = Textos.text7,
+                        StrUriImagem = "ms-appx:///ImagensParaAsTelas/DOG.png",
+                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 145, 180, 111))
+                    };
+
+
+                case 8:
+                    return new
+                    {
+                        Texto = Textos.text8,
+                        StrUriImagem = "ms-appx:///ImagensParaAsTelas/LIXO.png",
+                        SolidColorBrush = new SolidColorBrush(Color.FromArgb(255, 195, 194, 194))
+                    };
+                
+
                 default:
                     return null;
             }

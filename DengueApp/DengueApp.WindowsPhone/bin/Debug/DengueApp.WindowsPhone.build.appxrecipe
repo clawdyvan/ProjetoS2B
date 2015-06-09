@@ -1,127 +1,174 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>S2B</Machine>
-    <WindowsUser>Vinicius</WindowsUser>
+    <Machine>ARI</Machine>
+    <WindowsUser>Ariadne</WindowsUser>
     <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>9b769e05-76d6-424d-9103-ccdcd1b3268c</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\DengueApp.WindowsPhone.exe">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\DengueApp.WindowsPhone.exe">
       <PackagePath>DengueApp.WindowsPhone.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\Assets\Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\Assets\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\Assets\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\Assets\WideLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\Dedonegado.png">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\AQUAR.png">
+      <PackagePath>ImagensParaAsTelas\AQUAR.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\ARCONDI.PNG">
+      <PackagePath>ImagensParaAsTelas\ARCONDI.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\BORRACHA.PNG">
+      <PackagePath>ImagensParaAsTelas\BORRACHA.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\CAIXA DA AGUA.PNG">
+      <PackagePath>ImagensParaAsTelas\CAIXA DA AGUA.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\CONFERIR BARRIS.PNG">
+      <PackagePath>ImagensParaAsTelas\CONFERIR BARRIS.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\CONFIRIR LAJE.PNG">
+      <PackagePath>ImagensParaAsTelas\CONFIRIR LAJE.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\Dedonegado.png">
       <PackagePath>ImagensParaAsTelas\Dedonegado.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\Dedopositivo.png">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\Dedopositivo.png">
       <PackagePath>ImagensParaAsTelas\Dedopositivo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_APETITI.png">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\DOG.PNG">
+      <PackagePath>ImagensParaAsTelas\DOG.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\GUARRAFAS.PNG">
+      <PackagePath>ImagensParaAsTelas\GUARRAFAS.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_APETITI.png">
       <PackagePath>ImagensParaAsTelas\IMAG_BONECO_APETITI.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_cabeça.png">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_cabeça.png">
       <PackagePath>ImagensParaAsTelas\IMAG_BONECO_cabeça.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_corpo.png">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_corpo.png">
       <PackagePath>ImagensParaAsTelas\IMAG_BONECO_corpo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_DORBARI.png">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_DORBARI.png">
       <PackagePath>ImagensParaAsTelas\IMAG_BONECO_DORBARI.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_FADIGA.png">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_FADIGA.png">
       <PackagePath>ImagensParaAsTelas\IMAG_BONECO_FADIGA.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_FEBRE.png">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_FEBRE.png">
       <PackagePath>ImagensParaAsTelas\IMAG_BONECO_FEBRE.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_HEMORR.png">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_HEMORR.png">
       <PackagePath>ImagensParaAsTelas\IMAG_BONECO_HEMORR.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_MAN.png">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_MAN.png">
       <PackagePath>ImagensParaAsTelas\IMAG_BONECO_MAN.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_OLHOS.png">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\IMAG_BONECO_OLHOS.png">
       <PackagePath>ImagensParaAsTelas\IMAG_BONECO_OLHOS.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\LampadaLigada.png">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\LampadaLigada.png">
       <PackagePath>ImagensParaAsTelas\LampadaLigada.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\molecule_sombra cor.png">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\LIXO.PNG">
+      <PackagePath>ImagensParaAsTelas\LIXO.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\molecule_sombra cor.png">
       <PackagePath>ImagensParaAsTelas\molecule_sombra cor.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\mosquito.png">
+    <AppxPackagedFile Include="E:\APP FINAL\IMAGENS PARA O APP\mosquito.png">
       <PackagePath>ImagensParaAsTelas\mosquito.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\OLHAR AS CALHAS.PNG">
+      <PackagePath>ImagensParaAsTelas\OLHAR AS CALHAS.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\PRATINHO DE PLANTAS.PNG">
+      <PackagePath>ImagensParaAsTelas\PRATINHO DE PLANTAS.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\RESERVATORIO.PNG">
+      <PackagePath>ImagensParaAsTelas\RESERVATORIO.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\VASO AGUATICO.PNG">
+      <PackagePath>ImagensParaAsTelas\VASO AGUATICO.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\AividadeDetalhesPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\AividadeDetalhesPage.xbf">
       <PackagePath>AividadeDetalhesPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\AtividadesPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\AtividadesPage.xbf">
       <PackagePath>AtividadesPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\ContraIndicacoesPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\ContraIndicacoesPage.xbf">
       <PackagePath>ContraIndicacoesPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\HomePage.xbf">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\HomePage.xbf">
       <PackagePath>HomePage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\IndicacoesPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\IndicacoesPage.xbf">
       <PackagePath>IndicacoesPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\OqeDenguePage.xbf">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\OqeDenguePage.xbf">
       <PackagePath>OqeDenguePage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\OqFazerPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\OqFazerPage.xbf">
       <PackagePath>OqFazerPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\SintomasPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\SintomasPage.xbf">
       <PackagePath>SintomasPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\Styles e controles\StylesPersonalidados.xbf">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\Styles e controles\StylesPersonalidados.xbf">
       <PackagePath>Styles e controles\StylesPersonalidados.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\DengueApp.WindowsPhone.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\DengueApp.WindowsPhone.xr.xml">
       <PackagePath>DengueApp.WindowsPhone.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vinicius\Documents\Visual Studio 2013\Projects\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

@@ -8,6 +8,7 @@
     mc:Ignorable="d"
     Background="white">
 
+
     <Page.Resources>
         <DataTemplate x:Key="HubSectionHeaderTemplate">
             <TextBlock Margin="0,0,0,-9.5" Text="{Binding}"/>
@@ -183,11 +184,8 @@
                                         <Storyboard>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(Border.Background)" Storyboard.TargetName="CheckBackground">
                                                 <DiscreteObjectKeyFrame KeyTime="0">
-                                                    <DiscreteObjectKeyFrame.Value>
-                                                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                                            <GradientStop Color="Black" Offset="0"/>
-                                                            <GradientStop Color="#FFD61D1D" Offset="1"/>
-                                                        </LinearGradientBrush>
+                                                    <DiscreteObjectKeyFrame.Value>                                                        
+                                                            <SolidColorBrush Color="#0277BD" />                                           
                                                     </DiscreteObjectKeyFrame.Value>
                                                 </DiscreteObjectKeyFrame>
                                             </ObjectAnimationUsingKeyFrames>
@@ -252,8 +250,8 @@
                             <TextBlock FontSize="18" Text="{Binding Titulo}" />
 
                             <StackPanel Name="spIformaçõesDatas" Orientation="Horizontal">
-                                <TextBlock Margin="5,0,5,0" Name="tbDataUltimaConclusao" Text="{Binding DataUltimaConclusao, Mode=TwoWay}" />
-                                <TextBlock Text="{Binding DiasRestantesMensagem, Mode=TwoWay}"></TextBlock>
+                                <TextBlock ContinuumNavigationTransitionInfo.IsEntranceElement="True" Margin="5,0,5,0" Name="tbDataUltimaConclusao" Text="{Binding DataUltimaConclusao, Mode=TwoWay}" />
+                                <TextBlock ContinuumNavigationTransitionInfo.IsEntranceElement="True" Text="{Binding DiasRestantesMensagem, Mode=TwoWay}"></TextBlock>
                             </StackPanel>
                         </StackPanel>
                         <!--

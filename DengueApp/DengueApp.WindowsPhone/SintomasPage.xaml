@@ -29,7 +29,7 @@
         </TextBlock>
         <ListView Margin="12,264,10,10" FontFamily="Center Gothic" FontSize="19" BorderThickness="4.5" RenderTransformOrigin="0.52,0.516" >
             <TextBlock FontSize="16" Height="48" FontFamily="Century Gothic" Foreground="Red" FontWeight="Black" TextWrapping="Wrap" Text="Clássica" Width="368"/>
-            <TextBlock FontSize="18" Foreground="Black" Height="46" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Inicio da febre repentino " Width="243" RenderTransformOrigin="0.679,0.532" Margin="119,-9,0,0" />
+            <TextBlock FontSize="18" Foreground="Black" Height="46" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Inicio da febre repentina " Width="243" RenderTransformOrigin="0.679,0.532" Margin="119,-9,0,0" />
             <Image Source="ImagensParaAsTelas/IMAG_BONECO_FEBRE.png" Height="82" Width="102" Margin="0,-64,0,10"/>
             <TextBlock FontSize="18" Foreground="Black" Height="46" TextWrapping="Wrap" FontFamily="Centery Gothic" Text="Dor excessiva na cabeça" Width="243" RenderTransformOrigin="0.679,0.532" Margin="119,-9,0,0" />
             <Image Source="ImagensParaAsTelas/IMAG_BONECO_cabeça.png" Height="82" Width="102" Margin="0,-64,0,10"/>
