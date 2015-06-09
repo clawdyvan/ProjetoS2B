@@ -196,3 +196,28 @@ C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.Windows\ob
 C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\OqueFazerPage.xbf
 C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\SintomasPage.xaml
 C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\SintomasPage.xbf
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\ContraIndicaPage.xbf
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\IndicacoesPage.xbf
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\OqeDenguePage.xbf
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\OqueFazerPage.xbf
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\bin\Debug\SintomasPage.xbf
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\ContraIndicaPage.g.i.cs
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\ContraIndicaPage.g.cs
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\IndicacoesPage.g.i.cs
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\IndicacoesPage.g.cs
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\OqeDenguePage.g.i.cs
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\OqeDenguePage.g.cs
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\OqueFazerPage.g.i.cs
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\OqueFazerPage.g.cs
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\SintomasPage.g.i.cs
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\SintomasPage.g.cs
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\ContraIndicaPage.xaml
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\IndicacoesPage.xaml
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\OqeDenguePage.xaml
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\OqueFazerPage.xaml
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\SintomasPage.xaml
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\ContraIndicaPage.xbf
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\IndicacoesPage.xbf
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\OqeDenguePage.xbf
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\OqueFazerPage.xbf
+C:\Users\BRUNO\Desktop\ProjetoS2B\DengueApp\DengueApp.Windows\obj\Debug\SintomasPage.xbf

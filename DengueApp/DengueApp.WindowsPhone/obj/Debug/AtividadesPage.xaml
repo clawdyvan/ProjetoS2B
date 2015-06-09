@@ -183,11 +183,8 @@
                                         <Storyboard>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(Border.Background)" Storyboard.TargetName="CheckBackground">
                                                 <DiscreteObjectKeyFrame KeyTime="0">
-                                                    <DiscreteObjectKeyFrame.Value>
-                                                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                                            <GradientStop Color="Black" Offset="0"/>
-                                                            <GradientStop Color="#FFD61D1D" Offset="1"/>
-                                                        </LinearGradientBrush>
+                                                    <DiscreteObjectKeyFrame.Value>                                                        
+                                                            <SolidColorBrush Color="#0277BD" />                                           
                                                     </DiscreteObjectKeyFrame.Value>
                                                 </DiscreteObjectKeyFrame>
                                             </ObjectAnimationUsingKeyFrames>
