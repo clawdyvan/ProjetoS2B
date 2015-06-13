@@ -51,6 +51,21 @@
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ICON\_ICONS_CONTRA.png">
+      <PackagePath>ICON\_ICONS_CONTRA.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ICON\_ICONS_Corrigido.png">
+      <PackagePath>ICON\_ICONS_Corrigido.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ICON\_ICONS_LUZ.png">
+      <PackagePath>ICON\_ICONS_LUZ.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ICON\_ICONS_POSITIVO.png">
+      <PackagePath>ICON\_ICONS_POSITIVO.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ICON\_ICONS_SINTOMAS.png">
+      <PackagePath>ICON\_ICONS_SINTOMAS.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagensParaAsTelas\AQUAR.png">
       <PackagePath>ImagensParaAsTelas\AQUAR.png</PackagePath>
     </AppxPackagedFile>
@@ -143,6 +158,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagIcons\_ICONS_POSITIVO.png">
       <PackagePath>ImagIcons\_ICONS_POSITIVO.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\ImagIcons\_ICONS_SINTOMAS.png">
+      <PackagePath>ImagIcons\_ICONS_SINTOMAS.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ariadne\Documents\PROJETO APP\ProjetoS2B\DengueApp\DengueApp.WindowsPhone\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>

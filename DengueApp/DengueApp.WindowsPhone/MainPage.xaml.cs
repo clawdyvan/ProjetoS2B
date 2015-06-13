@@ -44,9 +44,14 @@ namespace DengueApp
         private void HubSectionLoaded(object sender, RoutedEventArgs e)
         {
             var grid = (Grid)sender;
-            var page = this.GetPageForSection(grid.Name);
+            if(grid.Children.Count == 0)
+            {
+                var page = this.GetPageForSection(grid.Name);
 
-            grid.Children.Add(page);
+                grid.Children.Add(page);
+
+            }
+            
         }
 
         private Page GetPageForSection(String sectionName)

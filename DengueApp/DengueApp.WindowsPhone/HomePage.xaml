@@ -25,40 +25,60 @@
             <Setter Property="BorderBrush" Value="#333" />
             <Setter Property="Foreground" Value="#333" />
             <Setter Property="FontSize" Value="18" />
+            <Setter Property="Height" Value="77"/>
         </Style>
 
     </Page.Resources>
 
     <Grid Margin="0, 20, 0, 20">
-        
+  
         <Grid VerticalAlignment="Top">
             <Button x:Name="btAtividades" Style="{StaticResource StyleHomeButtonPrincipal}"
                     Click="IrParaSectionDois"/>
+
         </Grid>
         <StackPanel VerticalAlignment="Bottom">
-
             <Button x:Name="btOqeDengue" Click="MenuHomeButtonClick" 
                     HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
-                <TextBlock Text="O que é Dengue ?" TextAlignment="Left"/>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/ICON/_ICONS_Corrigido.png" Height="55" Width="55"/>
+                    <TextBlock Text="O que é Dengue?" TextAlignment="Left" VerticalAlignment="Center"/>
+                </StackPanel>
             </Button>
             <Button x:Name="btSintomas" Click="MenuHomeButtonClick" 
                     HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
-                <TextBlock Text="Sintomas" TextAlignment="Left"/>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/ICON/_ICONS_SINTOMAS.png" Height="55" Width="55"/>
+                    <TextBlock Text="Sintomas" TextAlignment="Left" VerticalAlignment="Center"/>
+                </StackPanel>
+
             </Button>
             <Button x:Name="btIndica" Click="MenuHomeButtonClick" 
                     HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
-                <TextBlock Text="Indicações" TextAlignment="Left"/>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/ICON/_ICONS_POSITIVO.png" Height="55" Width="55"/>
+                    <TextBlock Text="Indicações" TextAlignment="Left" VerticalAlignment="Center"/>
+                </StackPanel>
+
             </Button>
             <Button x:Name="btContraidicação" Click="MenuHomeButtonClick" 
                     HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
-                <TextBlock Text="ContraIndicações" TextAlignment="Left"/>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/ICON/_ICONS_CONTRA.png " Height="55" Width="55"/>
+                    <TextBlock Text="ContraIndicações" TextAlignment="Left" VerticalAlignment="Center"/>
+                </StackPanel>
+
             </Button>
             <Button x:Name="btOqfazer" Click="MenuHomeButtonClick" 
                     HorizontalContentAlignment="Stretch" Style="{StaticResource StyleHomeButton}">
-                <TextBlock Text="O que fazer!" TextAlignment="Left"/>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/ICON/_ICONS_LUZ.png " Height="55" Width="55"/>
+                    <TextBlock Text="O que fazer!" TextAlignment="Left" VerticalAlignment="Center"/>
+                </StackPanel>
+
             </Button>
         </StackPanel>
-        
+
     </Grid>
 
 </Page>

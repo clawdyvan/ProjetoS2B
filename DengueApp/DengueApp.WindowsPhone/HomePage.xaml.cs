@@ -72,7 +72,7 @@ namespace DengueApp
             if (numeroDeConcluídas == totalDeAtividades)
             {
                 btAtividades.Background = new SolidColorBrush(Color.FromArgb(255, 17, 255, 41));
-                btAtividades.Content = "Prabéns, tudo concluído! =)";
+                btAtividades.Content = "Parabéns, tudo concluído! =)";
             }
             else
             {

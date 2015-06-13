@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
-  <Identity Name="9b769e05-76d6-424d-9103-ccdcd1b3268c" Publisher="CN=BRUNO" Version="1.0.0.0" />
-  <mp:PhoneIdentity PhoneProductId="9b769e05-76d6-424d-9103-ccdcd1b3268c" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="49754claudivan.mobi.DengueNo" Publisher="CN=6BC2A21B-7856-4321-B572-BC829E3AB35B" Version="1.1.0.2" />
+  <mp:PhoneIdentity PhoneProductId="995c503f-8195-4b41-a857-3b786056358f" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>DengueApp.WindowsPhone</DisplayName>
-    <PublisherDisplayName>BRUNO</PublisherDisplayName>
+    <DisplayName>#DengueNão!</DisplayName>
+    <PublisherDisplayName>claudivan.mobi</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Prerequisites>
